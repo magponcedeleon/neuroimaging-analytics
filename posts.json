@@ -1,22 +1,27 @@
 [
   {
+    "title": "🔄 Motion correction in PET: small movements, big impact",
+    "summary": " In PET imaging, even subtle patient motion during the scan can have serious consequences:<br> ❌ Blurred uptake patterns<br> ❌ Inaccurate quantification<br> ❌ Misplaced VOIs and unreliable z-scores.<br><br>Because PET scans often take several minutes, motion is nearly unavoidable. But if it’s not corrected properly, it can compromise both clinical interpretation and research validity...",
+    "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-neuroimaging-motioncorrection-activity-7358842780057505792-mCLw?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
+  },
+  {
     "title": "🎨 Why clear figures and visuals are as important as your results",
-    "summary": "In scientific research and clinical imaging, we invest countless hours designing studies, collecting data, and running complex analyses. Yet often, the final step — turning those findings into clear figures and visuals — is treated almost as an afterthought. From my experience supporting research teams and clinics, here’s why that last step matters just as much as the analysis itself:...",
+    "summary": "In scientific research and clinical imaging, we invest countless hours designing studies, collecting data, and running complex analyses. Yet often, the final step — turning those findings into clear figures and visuals — is treated almost as an afterthought.<br><br>From my experience supporting research teams and clinics, here’s why that last step matters just as much as the analysis itself:...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-medicalimaging-scientificwriting-activity-7357397380905713664-pxl_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
     "title": "🧠 What are z-scores in PET imaging — and why do they matter for clinicians?",
-    "summary": "In PET neuroimaging, visual interpretation is powerful, but it’s only part of the story. To add objectivity and clarity, we often use z-scores — a simple but effective statistical tool...",
+    "summary": "In PET neuroimaging, visual interpretation is powerful, but it’s only part of the story. To add objectivity and clarity, we often use z-scores — a simple but effective statistical tool.<br><br>What’s a z-score?<br>A z-score tells us how much a patient’s radiotracer uptake in a specific brain region differs from the average uptake seen in a healthy population, measured in standard deviations...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-pet-dataanalysis-activity-7356321227956793344-vaDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
     "title": "🧠 Why VOI-based analysis matters in PET imaging — and how it saves time for clinical teams",
-    "summary": "In my work with PET data, one question often comes up:  “Why spend time on VOI-based quantitative analysis when visual interpretation already tells us a lot?”...",
+    "summary": "In my work with PET data, one question often comes up:  “Why spend time on VOI-based quantitative analysis when visual interpretation already tells us a lot?”.<br><br>While expert visual reads remain essential, VOI-based analysis adds real value:<br>✅ It quantifies radiotracer uptake with standardized uptake values (SUVR) and z-scores...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-pet-dataanalysis-activity-7356319437240623104-DQaD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
     "title": "🔬 Transforming complex neuroimaging data into clinical value — now as a freelancer!",
-    "summary": "After over 6 years working in PET, MRI, and SPECT imaging—both in Argentina and Austria—and as part of my PhD in Clinical Neurosciences at the Medical University of Vienna, I’ve seen first-hand how time-consuming advanced image analysis can be for clinical teams and researchers...",
+    "summary": "After over 6 years working in PET, MRI, and SPECT imaging—both in Argentina and Austria—and as part of my PhD in Clinical Neurosciences at the Medical University of Vienna, I’ve seen first-hand how time-consuming advanced image analysis can be for clinical teams and researchers.<br><br>This experience inspired me to launch my own freelance neuroimaging consulting services, helping PET centers, research groups, and clinical teams transform complex data into clear, actionable insights...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-pet-dataanalysis-activity-7356318795914739712-o7e3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   }
 ]
