@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Magdalena Ponce de León | Neuroimaging & Data Science Consultant</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="text-gray-800 font-sans leading-relaxed">
+
+  <!-- Header -->
+<header class="bg-gradient-to-r from-blue-700 to-teal-500 text-white sticky top-0 z-30 shadow-md">
+  <div class="container mx-auto flex items-center justify-between px-6 py-4">
+    <h1 class="text-xl font-semibold flex items-center gap-3">
+      <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
+      Magdalena Ponce de León | Neuroimaging & Data Science Consultant
+    </h1>
+    <!-- Hamburger Button -->
+    <button id="menu-toggle" class="md:hidden text-4xl focus:outline-none">
+      ☰
+    </button>
+    <!-- Navigation Links -->
+    <nav id="menu" class="hidden md:flex space-x-6 text-sm font-medium relative">
+      <a href="index.html" class="hover:underline hover:text-gray-300">Home</a>
+      <a href="index.html#about" class="hover:underline hover:text-gray-300">About Me</a>
+      
+      <!-- Services dropdown -->
+      <div class="relative group">
+        <button
+          class="hover:underline hover:text-gray-300 flex items-center gap-1 focus:outline-none"
+          aria-haspopup="true"
+          aria-expanded="false"
+          id="services-menu-button"
+          type="button"
+        >
+          Services <span class="text-xs">▼</span>
+        </button>
+        <div
+          class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity duration-200 z-50"
+          role="menu"
+          aria-labelledby="services-menu-button"
+        >
+          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🧠 Data Preprocessing</a>
+          <a href="data-analysis-statistics.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">📊 Data Analysis & Statistics</a>
+          <a href="scientific-writing-editing.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">✍ Scientific Writing & Editing</a>
+          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🎨 Visual Material</a>
+          <a href="manuscript-submission.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">📈 Manuscript Submission & Publication</a>
+          <a href="representation.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🌍 Representation</a>
+        </div>
+      </div>
+
+      <a href="index.html#posts" class="hover:underline hover:text-gray-300">Posts</a>
+      <a href="index.html#contact" class="hover:underline hover:text-gray-300">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Mobile dropdown (hidden by default, shows when toggled) -->
+  <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+    <a href="index.html" class="block py-2 hover:underline hover:text-gray-300">Home</a>
+    <a href="index.html#about" class="block py-2 hover:underline hover:text-gray-300">About Me</a>
+    
+    <!-- Mobile Services with toggle -->
+    <details class="py-2">
+      <summary class="cursor-pointer hover:underline hover:text-gray-300">Services</summary>
+      <div class="pl-4 mt-2 flex flex-col space-y-1">
+        <a href="data-preprocessing.html" class="block hover:underline hover:text-gray-300">🧠 Data Preprocessing</a>
+        <a href="data-analysis-statistics.html" class="block hover:underline hover:text-gray-300">📊 Data Analysis & Statistics</a>
+        <a href="scientific-writing-editing.html" class="block hover:underline hover:text-gray-300">✍ Scientific Writing & Editing</a>
+        <a href="visual-material.html" class="block hover:underline hover:text-gray-300">🎨 Visual Material</a>
+        <a href="manuscript-submission.html" class="block hover:underline hover:text-gray-300">📈 Manuscript Submission & Publication</a>
+        <a href="representation.html" class="block hover:underline hover:text-gray-300">🌍 Representation</a>
+      </div>
+    </details>
+
+    <a href="index.html#posts" class="block py-2 hover:underline hover:text-gray-300">Posts</a>
+    <a href="index.html#contact" class="block py-2 hover:underline hover:text-gray-300">Contact</a>
+  </div>
+</header>
+
+
+  <!-- Insert the page content here -->
+  <!-- Hero / Title Section -->
+<section class="bg-gradient-to-tr from-blue-700 via-blue-600 to-teal-500 text-white py-20 text-center px-6">
+  <div class="max-w-3xl mx-auto">
+    <h1 class="text-4xl font-extrabold mb-4">📈 Manuscript Submission & Publication</h1>
+    <p class="text-lg">
+      Journal selection guidance, formatting, online submission handling, preprint uploads, and tracking.
+    </p>
+  </div>
+</section>
+
+<section id="manuscript-submission-content" class="container mx-auto px-6 py-16 max-w-5xl text-justify">
+  <p class="mb-6 text-gray-800">
+    Navigating the publication process can be complex and time-consuming. We provide dedicated support to ensure your manuscript meets all requirements and reaches the right audience efficiently.
+  </p>
+
+  <div class="space-y-8">
+
+    <div class="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+      <h2 class="text-2xl font-semibold mb-2">📚 Journal Selection Guidance</h2>
+      <p class="text-gray-700">
+        We help identify the most appropriate journals for your research based on scope, impact, open access policies, and acceptance rates — maximizing your chances of acceptance.
+      </p>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+      <h2 class="text-2xl font-semibold mb-2">📝 Manuscript Formatting & Compliance</h2>
+      <p class="text-gray-700">
+        Your manuscript will be formatted to meet the target journal’s style guidelines, including references, figures, tables, and supplementary materials — avoiding common pitfalls and delays.
+      </p>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+      <h2 class="text-2xl font-semibold mb-2">💻 Online Submission Handling</h2>
+      <p class="text-gray-700">
+        We manage the technical side of submission portals, uploading files correctly, filling required metadata, and ensuring all forms and disclosures are completed accurately.
+      </p>
+    </div>
+
+    <div class="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:shadow-lg">
+      <h2 class="text-2xl font-semibold mb-2">🔍 Submission Tracking & Communication</h2>
+      <p class="text-gray-700">
+        Stay informed with regular updates on your manuscript status. We help communicate with editors and reviewers, facilitating responses and revisions as needed.
+      </p>
+    </div>
+
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contact" class="bg-gradient-to-b from-gray-50 to-white py-16">
+  <div class="container mx-auto px-6 max-w-3xl">
+    <h2 class="text-3xl font-semibold mb-10 border-blue-700 inline-block pb-2 text-center w-full">Contact Me</h2>
+    <p class="mb-8 text-gray-700 text-center">Feel free to reach out via email or connect with me on LinkedIn:</p>
+
+    <div class="flex flex-col sm:flex-row sm:justify-center sm:space-x-12 space-y-6 sm:space-y-0">
+
+      <!-- Email Button -->
+      <a href="mailto:poncedeleon.magdalena.s@gmail.com" 
+         class="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg bg-blue-900 hover:bg-blue-900 transition text-white font-semibold w-full sm:w-auto max-w-md mx-auto"
+         aria-label="Email">
+        <!-- Original Email Icon -->
+        <svg class="w-6 h-6 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+        <span>poncedeleon.magdalena.s@gmail.com</span>
+      </a>
+
+      <!-- LinkedIn Button -->
+      <a href="https://www.linkedin.com/in/magdalena-ponce-de-león-1125b9154" target="_blank" rel="noopener noreferrer" 
+         class="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg bg-blue-900 hover:bg-blue-900 transition text-white font-semibold w-full sm:w-auto max-w-md mx-auto"
+         aria-label="LinkedIn Profile">
+        <!-- LinkedIn Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
+        </svg>
+        <span>LinkedIn Profile</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6 mt-12">
+    <div class="container mx-auto px-6 text-center text-sm flex flex-col sm:flex-row sm:justify-center sm:space-x-6 items-center gap-3">
+      <span>&copy; 2025 | Magdalena Ponce de León | Neuroimaging & Data Science Consultant. All rights reserved.</span>
+      
+      <!-- Email -->
+      <a href="mailto:poncedeleon.magdalena.s@gmail.com" class="hover:underline flex items-center text-white" aria-label="Email">
+        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+        poncedeleon.magdalena.s@gmail.com
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/magdalena-ponce-de-león-1125b9154" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center text-white" aria-label="LinkedIn Profile">
+        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 
+            2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
+            19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 
+            1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 
+            11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 
+            1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
+        </svg>
+        LinkedIn
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
