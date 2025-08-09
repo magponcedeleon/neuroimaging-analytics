@@ -1,3 +1,15 @@
+// Load Google Analytics gtag.js
+const gaScript = document.createElement("script");
+gaScript.async = true;
+gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-TJVLZ6GB0H";
+document.head.appendChild(gaScript);
+
+// Initialize GA
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-TJVLZ6GB0H');
+
 document.addEventListener("DOMContentLoaded", () => { 
 
   // Carousel code (your existing code)
