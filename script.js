@@ -6,17 +6,15 @@ document.addEventListener("DOMContentLoaded", () => {
   gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-TJVLZ6GB0H";
   document.head.appendChild(gaScript);
 
-  // Initialize GA tracking after script is loaded
   gaScript.onload = () => {
     window.dataLayer = window.dataLayer || [];
     function gtag(){ dataLayer.push(arguments); }
-    window.gtag = gtag;  // expose gtag if you want to use it later
-
+    window.gtag = gtag;
     gtag('js', new Date());
     gtag('config', 'G-TJVLZ6GB0H');
   };
 
-  // Carousel code (your existing code)
+  // Carousel
   const carouselTrack = document.getElementById("carouselTrack");
   const prevBtn = document.getElementById("prevBtn");
   const nextBtn = document.getElementById("nextBtn");
@@ -24,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const cardWidth = 320 + 24; // w-80 + gap-6
   let currentIndex = 0;
   let totalCards = 0;
-  let visibleCards = 3; // default
+  let visibleCards = 3;
   let maxIndex = 0;
 
   function updateDimensions() {
@@ -42,11 +40,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const card = document.createElement("div");
         card.className = "bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow flex-shrink-0 w-80";
         card.innerHTML = `
-	  <a href="${post.url}" target="_blank">
+          <a href="${post.url}" target="_blank">
             <h3 class="text-xl font-semibold mb-2 text-blue-800">${post.title}</h3>
             <p class="text-gray-600">${post.summary}</p>
             <a href="${post.url}" target="_blank" class="mt-4 inline-block text-blue-700 hover:underline font-medium">Read more →</a>
-	  </a>
+          </a>
         `;
         carouselTrack.appendChild(card);
       });
@@ -67,12 +65,31 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => console.error("Failed to load posts:", err));
 
-  // 🟢 NEW: Mobile menu toggle
+  // ✅ Mobile menu toggle (works reliably with Tailwind)
   const menuToggle = document.getElementById("menu-toggle");
   const mobileMenu = document.getElementById("mobile-menu");
 
-  menuToggle.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
+  if (menuToggle && mobileMenu) {
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  }
+
+  // Contact form (mailto)
+  const sendBtn = document.getElementById('sendMessageBtn');
+  sendBtn.addEventListener('click', () => {
+    const name = document.getElementById('name').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !message) {
+      alert("Please fill in both your name and message before sending.");
+      return;
+    }
+
+    const subject = encodeURIComponent(`New message from: ${name}`);
+    const body = encodeURIComponent(`Name: ${name}\n\nMessage:\n${message}`);
+
+    window.location.href = `mailto:poncedeleon.magdalena.s@gmail.com?subject=${subject}&body=${body}`;
   });
 
 });
