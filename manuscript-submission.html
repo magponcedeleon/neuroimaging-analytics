@@ -30,7 +30,9 @@
 <header class="bg-gradient-to-r from-blue-700 to-teal-500 text-white sticky top-0 z-30 shadow-md">
   <div class="container mx-auto flex items-center justify-between px-6 py-4">
     <h1 class="text-xl font-semibold flex items-center gap-3">
-      <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
+      <a href="index.html">
+        <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
+      </a>
       Magdalena Ponce de León | Neuroimaging & Data Science Consultant
     </h1>
     <!-- Hamburger Button -->
@@ -42,57 +44,59 @@
       <a href="index.html" class="hover:underline hover:text-white">Home</a>
       <a href="about.html" class="hover:underline hover:text-white">About</a>
       
-      <!-- Services dropdown -->
-      <div class="relative group">
-        <button
-          class="hover:underline hover:text-white flex items-center gap-1 focus:outline-none"
-          aria-haspopup="true"
-          aria-expanded="false"
-          id="services-menu-button"
-          type="button"
-        >
-          Services <span class="text-xs">▼</span>
-        </button>
-        <div
-          class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-opacity duration-200 z-50"
-          role="menu"
-          aria-labelledby="services-menu-button"
-        >
-          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🧠 Data Preprocessing</a>
-          <a href="data-analysis-statistics.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">📊 Data Analysis</a>
-          <a href="scientific-writing-editing.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">✍ Scientific Communication</a>
-          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🎨 Visual Data</a>
-          <a href="manuscript-submission.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">📈 Manuscript Submission</a>
-          <a href="representation.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🌍 Conference Support</a>
-        </div>
-      </div>
+<!-- Services dropdown -->
+<div class="relative group" id="services-dropdown">
+  <button
+    class="hover:text-white flex items-center gap-1 focus:outline-none"
+    aria-haspopup="true"
+    aria-expanded="false"
+    id="services-menu-button"
+    type="button"
+  >
+    Services <span class="text-xs">▼</span>
+  </button>
+  <div
+    id="services-menu"
+    class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50"
+    role="menu"
+    aria-labelledby="services-menu-button"
+  >
+    <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🧠 Data Preprocessing</a>
+    <a href="data-analysis-statistics.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">📊 Data Analysis</a>
+    <a href="scientific-writing-editing.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">✍ Scientific Communication</a>
+    <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🎨 Visual Data</a>
+    <a href="manuscript-submission.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">📈 Manuscript Submission</a>
+    <a href="representation.html" class="block px-4 py-2 hover:bg-blue-100" role="menuitem">🌍 Conference Support</a>
+  </div>
+</div>
 
       <a href="index.html#posts" class="hover:underline hover:text-white">Posts</a>
       <a href="index.html#contact" class="hover:underline hover:text-white">Contact</a>
     </nav>
   </div>
 
-  <!-- Mobile dropdown (hidden by default, shows when toggled) -->
-  <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
-    <a href="index.html" class="block py-2 hover:underline hover:text-white">Home</a>
-    <a href="about.html" class="block py-2 hover:underline hover:text-white">About</a>
-    
-    <!-- Mobile Services with toggle -->
-    <details class="py-2">
-      <summary class="cursor-pointer hover:underline hover:text-white">Services</summary>
-      <div class="pl-4 mt-2 flex flex-col space-y-1">
-        <a href="data-preprocessing.html" class="block hover:underline hover:white">🧠 Data Preprocessing</a>
-        <a href="data-analysis-statistics.html" class="block hover:underline hover:text-white">📊 Data Analysis</a>
-        <a href="scientific-writing-editing.html" class="block hover:underline hover:text-white">✍ Scientific Communication</a>
-        <a href="visual-material.html" class="block hover:underline hover:text-white">🎨 Visual Data</a>
-        <a href="manuscript-submission.html" class="block hover:underline hover:text-white">📈 Manuscript Submission</a>
-        <a href="representation.html" class="block hover:underline hover:text-white">🌍 Conference Support</a>
-      </div>
-    </details>
+<!-- Mobile dropdown (always expanded for Services) -->
+<div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+  <a href="index.html" class="block py-2 hover:underline hover:text-white">Home</a>
+  <a href="about.html" class="block py-2 hover:underline hover:text-white">About</a>
 
-    <a href="index.html#posts" class="block py-2 hover:underline hover:text-white">Posts</a>
-    <a href="index.html#contact" class="block py-2 hover:underline hover:text-white">Contact</a>
+  <!-- Services always visible -->
+  <div class="py-2">
+    <span class="block">Services</span>
+    <div class="pl-4 mt-2 flex flex-col space-y-1">
+      <a href="data-preprocessing.html" class="block hover:underline hover:text-white">🧠 Data Preprocessing</a>
+      <a href="data-analysis-statistics.html" class="block hover:underline hover:text-white">📊 Data Analysis</a>
+      <a href="scientific-writing-editing.html" class="block hover:underline hover:text-white">✍ Scientific Communication</a>
+      <a href="visual-material.html" class="block hover:underline hover:text-white">🎨 Visual Data</a>
+      <a href="manuscript-submission.html" class="block hover:underline hover:text-white">📈 Manuscript Submission</a>
+      <a href="representation.html" class="block hover:underline hover:text-white">🌍 Conference Support</a>
+    </div>
   </div>
+
+  <a href="index.html#posts" class="block py-2 hover:underline hover:text-white">Posts</a>
+  <a href="index.html#contact" class="block py-2 hover:underline hover:text-white">Contact</a>
+</div>
+
 </header>
 
 
