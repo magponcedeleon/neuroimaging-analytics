@@ -92,4 +92,21 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = `mailto:poncedeleon.magdalena.s@gmail.com?subject=${subject}&body=${body}`;
   });
 
+
+  // Services dropdown in desktop mode
+  const servicesButton = document.getElementById("services-menu-button");
+  const servicesMenu = document.getElementById("services-menu");
+
+  servicesButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    servicesMenu.classList.toggle("hidden");
+  });
+
+  // Optional: close dropdown when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!document.getElementById("services-dropdown").contains(e.target)) {
+      servicesMenu.classList.add("hidden");
+    }
+  });
+
 });
