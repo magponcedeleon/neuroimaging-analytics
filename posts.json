@@ -1,73 +1,72 @@
 [
   {
-    "title": "📋 PET scans provide rich data, but reports can be overwhelming",
+    "title": "PET scans provide rich data, but reports can be overwhelming",
     "summary": "Overly technical outputs, long tables, or complex parametric maps can make it difficult to extract what really matters for patient care. In follow-up studies or treatment monitoring, clarity is essential—every extra minute spent deciphering the report is time lost in clinical decision-making.<br><br>Presenting data in a clear, consistent, and interpretable way is crucial for effective patient management...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_magdalena-ponce-de-le%C3%B3n-neuroimaging-activity-7376964098686783488-_GEt?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🧠 Following disease progression with PET imaging is full of subtle challenges",
+    "title": "Following disease progression with PET imaging is full of subtle challenges",
     "summary": "In longitudinal studies, even when scans are taken under the same conditions, changes in reference regions—like those affected in neurodegenerative diseases—can affect measurements and interpretations.<br><br>Careful evaluation of these regions and consistent preprocessing help ensure that the data you rely on truly reflects the patient’s trajectory. It’s fascinating how small technical decisions can have a large impact on clinical conclusions...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-petquantification-brainimaging-activity-7376236711019786241-ALUk?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "💸 The hidden costs of manual PET data processing",
+    "title": "The hidden costs of manual PET data processing",
     "summary": "PET imaging delivers invaluable insights for research and clinical care — but how much of its potential is lost to manual data handling?<br><br>Manual workflows can silently drain your center’s resources:<br>❌ Hours of staff time spent on repetitive tasks<br>❌ Increased risk of errors affecting quantification and reliability<br>❌ Bottlenecks that slow project timelines and reduce throughput<br><br>These inefficiencies don’t just burden your team — they increase operational costs and can slow down the delivery of accurate, high-quality results...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-neuroimaging-medicalimaging-activity-7374432237557207040-Sn8N?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "📋 Why clear PET reports are essential for clinical decision-making",
+    "title": "Why clear PET reports are essential for clinical decision-making",
     "summary": "Clinicians are under constant pressure — they see multiple patients a day and don’t have time to interpret complex, raw PET data. Every extra minute spent deciphering images is a minute away from patient care.<br><br>This is where well-structured patient summary reports come in:<br>✅ Highlight critical findings instantly — key abnormalities or changes are clearly presented<br>✅ Simplify complex data — converting raw imaging into actionable insights...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-neuroimaging-medicalimaging-activity-7374120520088268800--sXg?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "📊 From clinical scans to published research: why data from imaging centers shouldn’t stay hidden",
+    "title": "From clinical scans to published research: why data from imaging centers shouldn’t stay hidden",
     "summary": "Many neuroimaging centers focus exclusively on clinical practice, not research.<br>Every day, they generate valuable PET, MRI, CT and SPECT data — but often, these datasets never go beyond diagnosis and patient care.<br>That’s a missed opportunity.<br><br>With the right support, clinical imaging data can also contribute to scientific publications. Here’s why that matters:...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_magdalena-ponce-de-le%C3%B3n-neuroimaging-activity-7373341705095327744-vib7?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🛠️ Why metal artifact correction in CT matters for PET imaging",
+    "title": "Why metal artifact correction in CT matters for PET imaging",
     "summary": "One of the subtle but critical steps in hybrid PET/CT imaging is ensuring that the CT data is reliable enough to be used for attenuation correction.<br><br>But here’s the challenge:<br>When patients have implants, prosthetics, or dental fillings, the CT images often suffer from metal artifacts (dark streaks and distortions). These artifacts don’t just affect the CT itself—they propagate into the PET reconstruction, leading to inaccurate quantification and false interpretations...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_magdalena-ponce-de-le%C3%B3n-neuroimaging-activity-7363174231490150401-cnxj?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🧠 The crucial role of technicians in delineating epilepsy focus",
+    "title": "The crucial role of technicians in delineating epilepsy focus",
     "summary": "For patients with drug-resistant epilepsy, identifying the seizure focus can be life-changing — and this requires skilled technicians who ensure that every step of the imaging workflow is precise and reliable.<br><br>Here’s why:<br>✅ Expert preprocessing: motion correction, multimodal alignment, and VOI segmentation turn raw data into clinically meaningful maps...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_magdalena-ponce-de-le%C3%B3n-neuroimaging-activity-7362414445865725954-HVHc?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🧠 New research: Simplifying PET protocols for brain SERT occupancy studies",
+    "title": "New research: Simplifying PET protocols for brain SERT occupancy studies",
     "summary": "As part of my PhD thesis — which aims to develop and validate techniques that make PET image acquisition and processing more efficient — I’m excited to share our latest publication:<br><br>📄 Simplified methods for SERT occupancy estimation measured with [11C]DASB PET bolus plus infusion...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_simplified-methods-for-sert-occupancy-estimation-activity-7361362743272058881-HHnk?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🔁 Turning reviewer feedback into stronger manuscripts",
+    "title": "Turning reviewer feedback into stronger manuscripts",
     "summary": "If you’ve ever submitted a manuscript, you know the mix of relief and anxiety that comes with the email:<br>&quotDecision: Major Revisions&quot<br><br>Peer reviewer feedback is invaluable — but it can also be challenging to address, especially when:<br>📄 Comments are complex or highly technical<br>🖋 Multiple co-authors have different interpretations of how to respond<br>⏳ Deadlines for resubmission are tight...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_scientificwriting-peerreview-academicpublishing-activity-7359860236368670720-hLWv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🔄 Motion correction in PET: small movements, big impact",
+    "title": "Motion correction in PET: small movements, big impact",
     "summary": " In PET imaging, even subtle patient motion during the scan can have serious consequences:<br> ❌ Blurred uptake patterns<br> ❌ Inaccurate quantification<br> ❌ Misplaced VOIs and unreliable z-scores.<br><br>Because PET scans often take several minutes, motion is nearly unavoidable. But if it’s not corrected properly, it can compromise both clinical interpretation and research validity...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-neuroimaging-motioncorrection-activity-7358842780057505792-mCLw?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🎨 Why clear figures and visuals are as important as your results",
+    "title": "Why clear figures and visuals are as important as your results",
     "summary": "In scientific research and clinical imaging, we invest countless hours designing studies, collecting data, and running complex analyses. Yet often, the final step — turning those findings into clear figures and visuals — is treated almost as an afterthought.<br><br>From my experience supporting research teams and clinics, here’s why that last step matters just as much as the analysis itself:...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-medicalimaging-scientificwriting-activity-7357397380905713664-pxl_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🧠 What are z-scores in PET imaging — and why do they matter for clinicians?",
+    "title": "What are z-scores in PET imaging — and why do they matter for clinicians?",
     "summary": "In PET neuroimaging, visual interpretation is powerful, but it’s only part of the story. To add objectivity and clarity, we often use z-scores — a simple but effective statistical tool.<br><br>What’s a z-score?<br>A z-score tells us how much a patient’s radiotracer uptake in a specific brain region differs from the average uptake seen in a healthy population, measured in standard deviations...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-pet-dataanalysis-activity-7356321227956793344-vaDo?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🧠 Why VOI-based analysis matters in PET imaging — and how it saves time for clinical teams",
+    "title": "Why VOI-based analysis matters in PET imaging — and how it saves time for clinical teams",
     "summary": "In my work with PET data, one question often comes up:  “Why spend time on VOI-based quantitative analysis when visual interpretation already tells us a lot?”.<br><br>While expert visual reads remain essential, VOI-based analysis adds real value:<br>✅ It quantifies radiotracer uptake with standardized uptake values (SUVR) and z-scores...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-pet-dataanalysis-activity-7356319437240623104-DQaD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   },
   {
-    "title": "🔬 Transforming complex neuroimaging data into clinical value — now as a freelancer!",
+    "title": "Transforming complex neuroimaging data into clinical value — now as a freelancer!",
     "summary": "After over 6 years working in PET, MRI, and SPECT imaging—both in Argentina and Austria—and as part of my PhD in Clinical Neurosciences at the Medical University of Vienna, I’ve seen first-hand how time-consuming advanced image analysis can be for clinical teams and researchers.<br><br>This experience inspired me to launch my own freelance neuroimaging consulting services, helping PET centers, research groups, and clinical teams transform complex data into clear, actionable insights...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_neuroimaging-pet-dataanalysis-activity-7356318795914739712-o7e3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
   }
 ]
-
