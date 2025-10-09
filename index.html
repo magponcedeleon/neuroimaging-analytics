@@ -28,12 +28,17 @@
 
   <header class="absolute top-0 left-0 w-full z-30 bg-gradient-to-b from-black/60 to-transparent text-white">
   <div class="container mx-auto flex items-center justify-between px-6 py-4">
-    <h1 class="text-xl font-semibold flex items-center gap-3">
-      <a href="index.html">
-        <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
-      </a>
-      Magdalena Ponce de León | Neuroimaging & Data Science Consultant
-    </h1>
+<h1 class="text-xl font-semibold flex items-center gap-4">
+  <a href="index.html">
+    <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
+  </a>
+  <div class="flex flex-col leading-tight">
+    <span>Magdalena Ponce de León</span>
+    <span class="text-sm font-normal">Neuroimaging & Data Analytics Specialist</span>
+  </div>
+</h1>
+
+
 
     <!-- Hamburger Button -->
     <button id="menu-toggle" class="md:hidden text-4xl focus:outline-none">☰</button>
@@ -49,12 +54,8 @@
           Services <span class="text-xs">▼</span>
         </button>
         <div class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50">
-          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100">Imaging Preprocessing & Quantification</a>
-          <a href="data-analysis-statistics.html" class="block px-4 py-2 hover:bg-blue-100">Statistical Analysis & Modeling</a>
-          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100">Figures & Visuals</a>
-<a href="scientific-writing-editing.html" class="block px-4 py-2 hover:bg-blue-100">Scientific Communication & Publication Support</a>
-          <a href="manuscript-submission.html" class="block px-4 py-2 hover:bg-blue-100">Manuscript Submission & Tracking</a>
-          <a href="representation.html" class="block px-4 py-2 hover:bg-blue-100">Conference & Collaboration Support</a>
+          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100">Imaging Insights</a>
+          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100">Visuals & Communication</a>
         </div>
       </div>
 
@@ -72,12 +73,8 @@
     <div class="py-2">
       <span class="block">Services</span>
       <div class="pl-4 mt-2 flex flex-col space-y-1">
-        <a href="data-preprocessing.html" class="block hover:text-[#01B985]">Imaging Preprocessing & Quantification</a>
-        <a href="data-analysis-statistics.html" class="block hover:text-[#01B985]">Statistical Analysis & Modeling</a>
-        <a href="visual-material.html" class="block hover:text-[#01B985]">Figures & Visuals</a>
-        <a href="scientific-writing-editing.html" class="block hover:text-[#01B985]">Scientific Communication & Publication Support</a>
-        <a href="manuscript-submission.html" class="block hover:text-[#01B985]">Manuscript Submission & Tracking</a>
-        <a href="representation.html" class="block hover:text-[#01B985]">Conference & Collaboration Support</a>
+        <a href="data-preprocessing.html" class="block hover:text-[#01B985]">Imaging Insights</a>
+        <a href="visual-material.html" class="block hover:text-[#01B985]">Visuals & Communication</a>
       </div>
     </div>
 
@@ -90,22 +87,22 @@
 
   <!-- Insert the page content here -->
   <!-- Hero Section -->
-<section id="hero" class="relative text-white py-24 text-center px-6 overflow-hidden">
+<section id="hero" class="relative text-white py-32 text-center px-6 overflow-hidden">
   <!-- Video Background -->
   <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0" poster="assets/images/BackgroundHero.png">
     <source src="assets/videos/BackgroundHero.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
-  <!-- Optional overlay for contrast -->
+  <!-- Overlay for contrast -->
   <div class="absolute inset-0 bg-black/40 z-10"></div>
 
   <div class="relative container mx-auto max-w-3xl z-20">
     <h1 class="text-5xl font-extrabold mb-6 leading-tight drop-shadow-lg">
-      Advanced Neuroimaging Processing for Clinical Excellence
+      Advanced Neuroimaging Processing & Communication
     </h1>
     <p class="text-xl mb-8 drop-shadow">
-      Helping neuroimaging centers achieve precise analysis and accurate diagnoses.
+      Helping biotech, neurotech, and clinical teams transform complex imaging data into <strong>accurate insights</strong> and <strong>clear, high-impact reports</strong> for research, clinical decisions, and stakeholders.
     </p>
 
     <div class="flex flex-col sm:flex-row justify-center gap-4">
@@ -119,116 +116,45 @@
   </div>
 </section>
 
-
 <!-- Services Section -->
 <section id="services" class="py-20 bg-gradient-to-b from-gray-50 to-white">
   <div class="max-w-6xl mx-auto px-6 text-center">
     <h2 class="text-3xl font-bold mb-6 pb-2">Services</h2>
     <p class="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-      Tailored consulting solutions that transform complex neuroimaging data into clinical and scientific impact.
+      Tailored solutions that transform complex neuroimaging data into actionable insights, high-impact scientific communication, and clear reports for stakeholders.
     </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-      <!-- Imaging Preprocessing & Quantification -->
+      <!-- Data Processing & Imaging Insights -->
       <a href="data-preprocessing.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
         <div class="flex justify-center mb-4">
-          <!-- Brain SVG Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2"/>
           </svg>
         </div>
         <h3 class="text-xl font-semibold text-blue-800 mb-2">
-          Imaging Preprocessing & Quantification
+          Data Processing & Imaging Insights
         </h3>
         <p class="text-gray-600 mt-2">
-          Ensure accurate and reliable patient data for confident clinical decisions with expert motion correction, multimodal alignment, and VOI quantification.
+          Turn raw neuroimaging data into <b>fast, reliable insights</b> for clinical, research, and strategic decisions. Accurate preprocessing, quantification, modeling, and reproducible reports help your team focus on innovation and patient care.
         </p>
         <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
       </a>
 
-      <!-- Statistical Analysis & Modeling -->
-      <a href="data-analysis-statistics.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
-        <div class="flex justify-center mb-4">
-          <!-- Bar Chart SVG Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18M9 17V9m6 8v-6"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">
-          Statistical Analysis & Modeling
-        </h3>
-        <p class="text-gray-600 mt-2">
-          Transform complex neuroimaging data into clear, actionable insights that support precise diagnosis and informed treatment planning.
-        </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
-      </a>
-
-      <!-- Figures & Visuals -->
+      <!-- Visuals & Scientific Communication -->
       <a href="visual-material.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
         <div class="flex justify-center mb-4">
-          <!-- Chart / Graph SVG Icon -->
           <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18M7 12h4v6H7zM13 8h4v10h-4z"/>
           </svg>
         </div>
         <h3 class="text-xl font-semibold text-blue-800 mb-2">
-          Figures & Visuals
+          Visuals & Scientific Communication
         </h3>
         <p class="text-gray-600 mt-2">
-          Professional figures, posters, and presentations that transform complex data into clear, impactful visuals.
-        </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
-      </a>
-
-      <!-- Scientific Communication & Publication Support -->
-      <a href="scientific-writing-editing.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
-        <div class="flex justify-center mb-4">
-          <!-- Document / Paper SVG Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h9M12 4h9M4 12h16M4 8h16M4 16h16"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">
-          Scientific Communication & Publication Support
-        </h3>
-        <p class="text-gray-600 mt-2">
-          Accelerate publication success and enhance the impact of your research with clear, compliant, and compelling scientific communication.
-        </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
-      </a>
-
-      <!-- Manuscript Submission & Tracking -->
-      <a href="manuscript-submission.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
-        <div class="flex justify-center mb-4">
-          <!-- Upload / Paper SVG Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M12 12v8m0-8l-4 4m4-4l4 4"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">
-          Manuscript Submission & Tracking
-        </h3>
-        <p class="text-gray-600 mt-2">
-          Save time and reduce frustration by ensuring smooth, timely submission and tracking, so your work reaches the right audience efficiently.
-        </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
-      </a>
-
-      <!-- Conference & Collaboration Support -->
-      <a href="representation.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
-        <div class="flex justify-center mb-4">
-          <!-- Handshake / People SVG Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4M7 12h.01M17 12h.01M12 2v20"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">
-          Conference & Collaboration Support
-        </h3>
-        <p class="text-gray-600 mt-2">
-          Maximize your professional visibility and collaboration opportunities with expert presentation and conference representation support.
+          Create <b>professional figures, presentations, manuscripts, and stakeholder reports</b> that clearly communicate results. Improve clarity, impact, and engagement for journals, collaborators, investors, and decision-makers.
         </p>
         <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
       </a>
@@ -237,40 +163,41 @@
   </div>
 </section>
 
+<!-- Call to Action Section -->
+<section class="bg-[#01B985] py-20 px-6 text-center text-white">
+  <div class="max-w-3xl mx-auto">
+    <h3 class="text-4xl md:text-5xl font-extrabold mb-6 leading-snug">
+      Maximize the Impact of Your Neuroimaging Data
+    </h3>
+    <p class="text-lg md:text-xl mb-8 leading-relaxed text-white">
+      Partner with us to turn complex imaging data into <strong>actionable insights, clear reports, and impactful visuals</strong> that accelerate research, clinical decisions, and stakeholder engagement.
+    </p>
+    <a href="#contact" class="inline-block bg-transparent border-2 border-white text-white font-semibold py-3 px-10 rounded hover:bg-white hover:text-[#01B985] transition-colors">
+      Book a Free Consultation
+    </a>
+  </div>
+</section>
 
-
-<!-- Posts Section -->
+<!-- Latest Posts Section -->
 <section id="posts" class="bg-gradient-to-b from-gray-50 to-white py-16">
   <div class="container mx-auto px-6 max-w-5xl">
     <h2 class="text-3xl font-semibold mb-10 border-blue-700 inline-block pb-2">Latest Posts</h2>
 
     <div class="relative overflow-hidden -mx-8">
-      <!-- Track -->
       <div id="carouselTrack" class="flex px-6 gap-6 transition-transform duration-500 ease-in-out text-center">
-
-<!-- class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300"> -->
-
-
         <!-- Cards load here dynamically -->
       </div>
 
-      <!-- Arrows over carousel -->
-      <button id="prevBtn"
-        class="absolute left-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white p-1 rounded-full shadow hover:bg-blue-800 z-10"
-        aria-label="Previous">
+      <button id="prevBtn" class="absolute left-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white p-1 rounded-full shadow hover:bg-blue-800 z-10" aria-label="Previous">
         &#8592;
       </button>
 
-      <button id="nextBtn"
-        class="absolute right-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white p-1 rounded-full shadow hover:bg-blue-800 z-10"
-        aria-label="Next">
+      <button id="nextBtn" class="absolute right-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white p-1 rounded-full shadow hover:bg-blue-800 z-10" aria-label="Next">
         &#8594;
       </button>
     </div>
   </div>
 </section>
-
-
 
 
   <!-- Contact Section -->
