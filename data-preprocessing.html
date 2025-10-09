@@ -28,12 +28,17 @@
 
   <header class="absolute top-0 left-0 w-full z-30 bg-gradient-to-b from-black/60 to-transparent text-white">
   <div class="container mx-auto flex items-center justify-between px-6 py-4">
-    <h1 class="text-xl font-semibold flex items-center gap-3">
-      <a href="index.html">
-        <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
-      </a>
-      Magdalena Ponce de León | Neuroimaging & Data Science Consultant
-    </h1>
+<h1 class="text-xl font-semibold flex items-center gap-4">
+  <a href="index.html">
+    <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
+  </a>
+  <div class="flex flex-col leading-tight">
+    <span>Magdalena Ponce de León</span>
+    <span class="text-sm font-normal">Neuroimaging & Data Analytics Specialist</span>
+  </div>
+</h1>
+
+
 
     <!-- Hamburger Button -->
     <button id="menu-toggle" class="md:hidden text-4xl focus:outline-none">☰</button>
@@ -49,12 +54,8 @@
           Services <span class="text-xs">▼</span>
         </button>
         <div class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50">
-          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100">Imaging Preprocessing & Quantification</a>
-          <a href="data-analysis-statistics.html" class="block px-4 py-2 hover:bg-blue-100">Statistical Analysis & Modeling</a>
-          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100">Figures & Visuals</a>
-<a href="scientific-writing-editing.html" class="block px-4 py-2 hover:bg-blue-100">Scientific Communication & Publication Support</a>
-          <a href="manuscript-submission.html" class="block px-4 py-2 hover:bg-blue-100">Manuscript Submission & Tracking</a>
-          <a href="representation.html" class="block px-4 py-2 hover:bg-blue-100">Conference & Collaboration Support</a>
+          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100">Imaging Insights</a>
+          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100">Visuals & Communication</a>
         </div>
       </div>
 
@@ -72,12 +73,8 @@
     <div class="py-2">
       <span class="block">Services</span>
       <div class="pl-4 mt-2 flex flex-col space-y-1">
-        <a href="data-preprocessing.html" class="block hover:text-[#01B985]">Imaging Preprocessing & Quantification</a>
-        <a href="data-analysis-statistics.html" class="block hover:text-[#01B985]">Statistical Analysis & Modeling</a>
-        <a href="visual-material.html" class="block hover:text-[#01B985]">Figures & Visuals</a>
-        <a href="scientific-writing-editing.html" class="block hover:text-[#01B985]">Scientific Communication & Publication Support</a>
-        <a href="manuscript-submission.html" class="block hover:text-[#01B985]">Manuscript Submission & Tracking</a>
-        <a href="representation.html" class="block hover:text-[#01B985]">Conference & Collaboration Support</a>
+        <a href="data-preprocessing.html" class="block hover:text-[#01B985]">Imaging Insights</a>
+        <a href="visual-material.html" class="block hover:text-[#01B985]">Visuals & Communication</a>
       </div>
     </div>
 
@@ -100,52 +97,97 @@
   </video>
 
   <!-- Overlay for readability -->
-  <div class="absolute inset-0 bg-blue-900/70 z-10"></div>
+  <div class="absolute inset-0 bg-blue-900/80 z-10"></div>
 
   <!-- Hero Content -->
   <div class="relative max-w-3xl mx-auto z-20">
     <h1 class="text-5xl font-extrabold mb-6 leading-tight">
-      Imaging Preprocessing & Quantification
+      Data Processing & Imaging Insights
     </h1>
     <p class="text-xl mb-8 leading-relaxed">
-      Advanced preprocessing for PET, MRI, CT, and SPECT scans to support accurate and reliable clinical diagnoses.
+      Transform raw neuroimaging data into <strong>accurate, reproducible insights</strong> 
+      that drive better diagnostics, research, and actionable outcomes for stakeholders.
     </p>
   </div>
 </section>
 
-<!-- Services Details Section -->
-<section id="data-preprocessing-content" class="container mx-auto px-6 py-16 max-w-5xl">
-  <div class="grid md:grid-cols-2 gap-8 text-gray-800">
+<!-- Core Expertise Section -->
+<section id="data-processing-content" class="container mx-auto px-6 py-16 max-w-5xl text-gray-800">
+  <div class="grid md:grid-cols-2 gap-8">
     <div>
       <h3 class="text-xl font-semibold mb-2">Motion Correction</h3>
       <p class="leading-relaxed mb-2">
-        Reduces patient movement artifacts, preserving signal integrity for reliable diagnostics.
+        Minimize patient movement artifacts to preserve signal integrity and ensure reliable diagnostics.
       </p>
     </div>
 
     <div>
-      <h3 class="text-xl font-semibold mb-2">Multimodal Alignment & Co-registration</h3>
+      <h3 class="text-xl font-semibold mb-2">Multimodal Alignment</h3>
       <p class="leading-relaxed mb-2">
-        Aligns PET, MRI, CT, and SPECT scans to support integrated and accurate clinical insights.
+        Integrate PET, MRI, CT, and SPECT scans for precise and consistent cross-modality insights.
       </p>
     </div>
 
     <div>
       <h3 class="text-xl font-semibold mb-2">VOI Segmentation & Quantification</h3>
       <p class="leading-relaxed mb-2">
-        Extracts key metrics from regions of interest for ready-to-analyze imaging data.
+        Extract critical metrics from regions of interest to produce ready-to-analyze imaging datasets.
       </p>
     </div>
 
     <div>
-      <h3 class="text-xl font-semibold mb-2">Customized Preprocessing Pipelines</h3>
+      <h3 class="text-xl font-semibold mb-2">Statistical Analysis & Modeling</h3>
       <p class="leading-relaxed mb-2">
-        Tailored workflows ensure reproducibility, transparency, and seamless integration with existing protocols.
+        Identify trends, validate hypotheses, and quantify treatment effects with robust statistical workflows.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-semibold mb-2">Customized Workflows</h3>
+      <p class="leading-relaxed mb-2">
+        Tailored, transparent pipelines adapted to your data and objectives — ensuring reproducibility and compliance.
       </p>
     </div>
   </div>
+
+  <!-- Divider -->
+  <div class="w-full h-px bg-gray-200 mt-12"></div>
 </section>
 
+<!-- Value & Deliverables Section -->
+<section id="value-deliverables" class="container mx-auto px-6 max-w-5xl text-gray-800">
+  <h2 class="text-3xl font-bold mb-6">Deliverables & Benefits</h2>
+  <p class="mb-8">Beyond processing, we provide actionable outputs that support decision-making, collaboration, and clinical confidence:</p>
+  <ul class="list-disc pl-5 space-y-2">
+    <li><strong>Clear, stakeholder-ready reports:</strong> Easy-to-read outputs for clinicians, researchers, and management.</li>
+    <li><strong>Actionable insights:</strong> Highlighting key trends, anomalies, and statistically significant findings.</li>
+    <li><strong>Integrated cross-modality summaries:</strong> PET, MRI, CT, and SPECT results combined for a complete overview.</li>
+    <li><strong>Compliance-ready datasets:</strong> Ready for regulatory submissions, research replication, or clinical review.</li>
+  </ul>
+</section>
+
+<!-- Optional Workflow Section -->
+<section id="workflow" class="container mx-auto px-6 py-16 max-w-5xl text-gray-800">
+  <h2 class="text-3xl font-bold mb-6">How It Works</h2>
+  <div class="grid md:grid-cols-4 gap-6 text-center">
+    <div class="p-4 bg-white rounded shadow">
+      <h3 class="font-semibold mb-2">1. Data Upload</h3>
+      <p class="text-gray-600">Securely submit your imaging datasets.</p>
+    </div>
+    <div class="p-4 bg-white rounded shadow">
+      <h3 class="font-semibold mb-2">2. Preprocessing & Alignment</h3>
+      <p class="text-gray-600">Motion correction, alignment, and quality control for reliable analysis.</p>
+    </div>
+    <div class="p-4 bg-white rounded shadow">
+      <h3 class="font-semibold mb-2">3. Quantification & Analysis</h3>
+      <p class="text-gray-600">Extract volumes of interest, model statistics, and generate key metrics.</p>
+    </div>
+    <div class="p-4 bg-white rounded shadow">
+      <h3 class="font-semibold mb-2">4. Reports & Insights</h3>
+      <p class="text-gray-600">Deliver clear, actionable reports for stakeholders, researchers, and clinicians.</p>
+    </div>
+  </div>
+</section>
 
 <!-- Call to Action -->
 <section class="bg-[#01B985] py-20 px-6 text-center text-white">
@@ -153,8 +195,8 @@
     <h3 class="text-4xl md:text-5xl font-extrabold mb-6 leading-snug">
       Optimize Your Imaging Data with Precision
     </h3>
-    <p class="text-lg md:text-xl mb-8 leading-relaxed text-gray-200">
-      Trust our advanced preprocessing pipelines to improve reliability and reproducibility, helping your center achieve accurate and actionable clinical insights.
+    <p class="text-lg md:text-xl mb-8 leading-relaxed text-white">
+      Partner with us to turn complex imaging datasets into <strong>actionable insights, clear reports, and confident decisions</strong> for clinical teams, researchers, and stakeholders.
     </p>
     <a href="data-preprocessing.html#contact" 
        class="inline-block bg-transparent border-2 border-white text-white font-semibold py-3 px-10 rounded hover:bg-white hover:text-[#01B985] transition-colors">
@@ -162,7 +204,6 @@
     </a>
   </div>
 </section>
-
 
 
   <!-- Contact Section -->
