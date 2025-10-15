@@ -1,5 +1,10 @@
 [
   {
+    "title": "Why atlas choice matters: small regions vs. PET resolution",
+    "summary": "In PET imaging, segmentation with a brain atlas is standard practice. But there’s a hidden challenge: PET spatial resolution is limited.<br><br>If you use an atlas with very small brain regions, you risk:<br>❌ Blurring or partial-volume effects that make signals unreliable<br>❌ Misinterpretation of uptake in tiny regions<br>❌ Reduced statistical power and inconsistent results<br><br>In other words, more detail isn’t always better.<br><br>The right approach:...",
+    "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-neuroimaging-medicalimaging-activity-7384120274486464512-T6LP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
+  },
+  {
     "title": "Why FDG-PET remains a pillar of neurotech and biotech research",
     "summary": "Among all PET radiotracers, [¹⁸F]FDG remains one of the most powerful tools for studying the brain.<br><br>FDG acts as a glucose analog, allowing researchers to map regional cerebral metabolism — a direct reflection of how different brain regions consume energy. Because brain metabolism is tightly linked to neural activity, FDG-PET gives unique insights into functional changes long before structural alterations appear.<br><br>That’s why it remains a gold standard in:<br>🧠 Early-phase drug development for neurodegenerative and psychiatric disorders...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_fdgpet-pet-neuroimaging-activity-7383397246618308608-Hp6b?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
