@@ -1,5 +1,10 @@
 [
   {
+    "title": "How automated PET workflows improve reproducibility in multi-site studies",
+    "summary": "In multi-center neuroimaging trials, reproducibility isn’t just a quality goal, it’s a scientific requirement.<br><br>Even with the same tracer and acquisition protocol, small differences between sites, scanner calibration, reconstruction settings, or preprocessing methods, can introduce significant variability.<br><br>That variability can:<br>⚠️ Mask true biological or treatment effects<br>⚠️ Reduce statistical power<br>⚠️ Delay clinical or regulatory milestones...",
+    "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-fdgpet-neuroimaging-share-7384925124266889218-MJ95?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
+  },
+  {
     "title": "Why atlas choice matters: small regions vs. PET resolution",
     "summary": "In PET imaging, segmentation with a brain atlas is standard practice. But there’s a hidden challenge: PET spatial resolution is limited.<br><br>If you use an atlas with very small brain regions, you risk:<br>❌ Blurring or partial-volume effects that make signals unreliable<br>❌ Misinterpretation of uptake in tiny regions<br>❌ Reduced statistical power and inconsistent results<br><br>In other words, more detail isn’t always better.<br><br>The right approach:...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_pet-neuroimaging-medicalimaging-activity-7384120274486464512-T6LP?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
