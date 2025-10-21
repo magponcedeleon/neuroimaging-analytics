@@ -73,61 +73,85 @@
 
   <header class="absolute top-0 left-0 w-full z-30 bg-gradient-to-b from-black/60 to-transparent text-white">
   <div class="container mx-auto flex items-center justify-between px-6 py-4">
-<h1 class="text-xl font-semibold flex items-center gap-4">
-  <a href="index.html">
-    <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
-  </a>
-  <div class="flex flex-col leading-tight">
-    <span>Magdalena Ponce de León</span>
-    <span class="text-sm font-normal">Neuroimaging & Data Analytics Specialist</span>
-  </div>
-</h1>
 
-
+    <!-- Logo and Title -->
+    <h1 class="text-xl font-semibold flex items-center gap-4">
+      <a href="index.html">
+        <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
+      </a>
+      <div class="flex flex-col leading-tight">
+        <span data-i18n="header.name">Magdalena Ponce de León</span>
+        <span class="text-sm font-normal" data-i18n="header.subtitle">Neuroimaging & Data Analytics Specialist</span>
+      </div>
+    </h1>
 
     <!-- Hamburger Button -->
     <button id="menu-toggle" class="md:hidden text-4xl focus:outline-none">☰</button>
 
     <!-- Desktop Navigation -->
-    <nav id="menu" class="hidden md:flex space-x-6 text-sm font-medium relative">
-      <a href="index.html" class="hover:text-[#01B985]">Home</a>
-      <a href="about.html" class="hover:text-[#01B985]">About</a>
+    <nav id="menu" class="hidden md:flex items-center space-x-6 text-sm font-medium relative">
+      <a href="index.html" class="hover:text-[#01B985]" data-i18n="header.home">Home</a>
+      <a href="about.html" class="hover:text-[#01B985]" data-i18n="header.about">About</a>
 
       <!-- Services dropdown -->
       <div class="relative group" id="services-dropdown">
-        <button class="hover:text-[#01B985] flex items-center gap-1 focus:outline-none" type="button">
+        <button class="hover:text-[#01B985] flex items-center gap-1 focus:outline-none" type="button" data-i18n="header.services">
           Services <span class="text-xs">▼</span>
         </button>
         <div class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50">
-          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100">Imaging Insights</a>
-          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100">Visuals & Communication</a>
+          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100" data-i18n="header.imaging-insights">Imaging Insights</a>
+          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100" data-i18n="header.visuals-communication">Visuals & Communication</a>
         </div>
       </div>
 
-      <a href="index.html#posts" class="hover:text-[#01B985]">Posts</a>
-      <a href="index.html#contact" class="hover:text-[#01B985]">Contact</a>
+      <a href="index.html#posts" class="hover:text-[#01B985]" data-i18n="header.posts">Posts</a>
+      <a href="index.html#contact" class="hover:text-[#01B985]" data-i18n="header.contact">Contact</a>
+
+      <!-- Language selector styled like Services -->
+      <div class="relative group" id="lang-dropdown">
+        <button class="border border-white px-2 py-1 rounded-md hover:text-[#01B985] flex items-center gap-1 focus:outline-none" type="button">
+          <span id="current-lang">EN</span>
+          <span class="text-xs">▼</span>
+        </button>
+        <div class="absolute left-0 mt-1 w-28 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50">
+          <button onclick="setLang('en')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">EN</button>
+          <button onclick="setLang('de')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">DE</button>
+          <button onclick="setLang('es')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">ES</button>
+  	  <button onclick="setLang('it')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">IT</button>
+        </div>
+      </div>
     </nav>
   </div>
 
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 bg-black/80">
-    <a href="index.html" class="block py-2 hover:text-[#01B985]">Home</a>
-    <a href="about.html" class="block py-2 hover:text-[#01B985]">About</a>
+    <a href="index.html" class="block py-2 hover:text-[#01B985]" data-i18n="header.home">Home</a>
+    <a href="about.html" class="block py-2 hover:text-[#01B985]" data-i18n="header.about">About</a>
 
-    <!-- Services always visible -->
+    <!-- Services -->
     <div class="py-2">
-      <span class="block">Services</span>
+      <span class="block" data-i18n="header.services">Services</span>
       <div class="pl-4 mt-2 flex flex-col space-y-1">
-        <a href="data-preprocessing.html" class="block hover:text-[#01B985]">Imaging Insights</a>
-        <a href="visual-material.html" class="block hover:text-[#01B985]">Visuals & Communication</a>
+        <a href="data-preprocessing.html" class="block hover:text-[#01B985]" data-i18n="header.imaging-insights">Imaging Insights</a>
+        <a href="visual-material.html" class="block hover:text-[#01B985]" data-i18n="header.visuals-communication">Visuals & Communication</a>
       </div>
     </div>
 
-    <a href="index.html#posts" class="block py-2 hover:text-[#01B985]">Posts</a>
-    <a href="index.html#contact" class="block py-2 hover:text-[#01B985]">Contact</a>
+    <a href="index.html#posts" class="block py-2 hover:text-[#01B985]" data-i18n="header.posts">Posts</a>
+    <a href="index.html#contact" class="block py-2 hover:text-[#01B985]" data-i18n="header.contact">Contact</a>
+
+    <!-- Language selector -->
+    <div class="py-2">
+      <span class="block" data-i18n="header.language">Language</span>
+      <div class="pl-4 mt-2 flex flex-col space-y-1">
+        <button onclick="setLang('en')" class="text-left hover:text-[#01B985]">EN</button>
+        <button onclick="setLang('de')" class="text-left hover:text-[#01B985]">DE</button>
+        <button onclick="setLang('es')" class="text-left hover:text-[#01B985]">ES</button>
+	<button onclick="setLang('it')" class="text-left hover:text-[#01B985]">IT</button>
+      </div>
+    </div>
   </div>
 </header>
-
 
 
   <!-- Insert the page content here -->
@@ -143,18 +167,18 @@
   <div class="absolute inset-0 bg-black/40 z-10"></div>
 
   <div class="relative container mx-auto max-w-3xl z-20">
-    <h1 class="text-5xl font-extrabold mb-6 leading-tight drop-shadow-lg">
+    <h1 class="text-5xl font-extrabold mb-6 leading-tight drop-shadow-lg" data-i18n="index.hero.title">
       Advanced Neuroimaging Processing & Communication
     </h1>
-    <p class="text-xl mb-8 drop-shadow">
+    <p class="text-xl mb-8 drop-shadow" data-i18n="index.hero.subtitle">
       Helping biotech, neurotech, and clinical teams transform complex imaging data into <strong>accurate insights</strong> and <strong>clear, high-impact reports</strong> for research, clinical decisions, and stakeholders.
     </p>
 
     <div class="flex flex-col sm:flex-row justify-center gap-4">
-      <a href="#services" class="inline-block bg-white text-blue-700 font-semibold py-3 px-8 rounded shadow hover:bg-gray-100 transition">
+      <a href="#services" class="inline-block bg-white text-blue-700 font-semibold py-3 px-8 rounded shadow hover:bg-gray-100 transition" data-i18n="index.hero.explore_services">
         Explore Services
       </a>
-      <a href="#contact" class="inline-block bg-[#01B985] text-white font-semibold py-3 px-8 rounded shadow hover:bg-[#33c59d] transition-colors duration-300">
+      <a href="#contact" class="inline-block bg-[#01B985] text-white font-semibold py-3 px-8 rounded shadow hover:bg-[#33c59d] transition-colors duration-300" data-i18n="index.hero.book_consultation">
         Book a Free Consultation
       </a>
     </div>
@@ -164,8 +188,8 @@
 <!-- Services Section -->
 <section id="services" class="py-20 bg-gradient-to-b from-gray-50 to-white">
   <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6 pb-2">Services</h2>
-    <p class="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 pb-2" data-i18n="index.services.title">Services</h2>
+    <p class="text-lg text-gray-600 mb-12 max-w-3xl mx-auto" data-i18n="index.services.subtitle">
       Tailored solutions that transform complex neuroimaging data into actionable insights, high-impact scientific communication, and clear reports for stakeholders.
     </p>
 
@@ -179,13 +203,13 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2"/>
           </svg>
         </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">
+        <h3 class="text-xl font-semibold text-blue-800 mb-2" data-i18n="index.services.data_processing.title">
           Data Processing & Imaging Insights
         </h3>
-        <p class="text-gray-600 mt-2">
+        <p class="text-gray-600 mt-2" data-i18n="index.services.data_processing.description">
           Turn raw neuroimaging data into <b>fast, reliable insights</b> for clinical, research, and strategic decisions. Accurate preprocessing, quantification, modeling, and reproducible reports help your team focus on innovation and patient care.
         </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
+        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium" data-i18n="index.services.data_processing.learn_more">Learn more →</button>
       </a>
 
       <!-- Visuals & Scientific Communication -->
@@ -195,13 +219,13 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18M7 12h4v6H7zM13 8h4v10h-4z"/>
           </svg>
         </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">
+        <h3 class="text-xl font-semibold text-blue-800 mb-2" data-i18n="index.services.visuals_communication.title">
           Visuals & Scientific Communication
         </h3>
-        <p class="text-gray-600 mt-2">
+        <p class="text-gray-600 mt-2" data-i18n="index.services.visuals_communication.description">
           Create <b>professional figures, presentations, manuscripts, and stakeholder reports</b> that clearly communicate results. Improve clarity, impact, and engagement for journals, collaborators, investors, and decision-makers.
         </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium">Learn more →</button>
+        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium" data-i18n="index.services.visuals_communication.learn_more">Learn more →</button>
       </a>
 
     </div>
@@ -211,13 +235,13 @@
 <!-- Call to Action Section -->
 <section class="bg-[#01B985] py-20 px-6 text-center text-white">
   <div class="max-w-3xl mx-auto">
-    <h3 class="text-4xl md:text-5xl font-extrabold mb-6 leading-snug">
+    <h3 class="text-4xl md:text-5xl font-extrabold mb-6 leading-snug" data-i18n="index.cta.title">
       Maximize the Impact of Your Neuroimaging Data
     </h3>
-    <p class="text-lg md:text-xl mb-8 leading-relaxed text-white">
+    <p class="text-lg md:text-xl mb-8 leading-relaxed text-white" data-i18n="index.cta.subtitle">
       Partner with us to turn complex imaging data into <strong>actionable insights, clear reports, and impactful visuals</strong> that accelerate research, clinical decisions, and stakeholder engagement.
     </p>
-    <a href="#contact" class="inline-block bg-transparent border-2 border-white text-white font-semibold py-3 px-10 rounded hover:bg-white hover:text-[#01B985] transition-colors">
+    <a href="#contact" class="inline-block bg-transparent border-2 border-white text-white font-semibold py-3 px-10 rounded hover:bg-white hover:text-[#01B985] transition-colors" data-i18n="index.cta.button">
       Book a Free Consultation
     </a>
   </div>
@@ -226,7 +250,7 @@
 <!-- Latest Posts Section -->
 <section id="posts" class="bg-gradient-to-b from-gray-50 to-white py-16">
   <div class="container mx-auto px-6 max-w-5xl">
-    <h2 class="text-3xl font-semibold mb-10 border-blue-700 inline-block pb-2">Latest Posts</h2>
+    <h2 class="text-3xl font-semibold mb-10 border-blue-700 inline-block pb-2" data-i18n="index.latest_posts.title">Latest Posts</h2>
 
     <div class="relative overflow-hidden -mx-8">
       <div id="carouselTrack" class="flex px-6 gap-6 transition-transform duration-500 ease-in-out text-center">
@@ -248,8 +272,10 @@
   <!-- Contact Section -->
 <section id="contact" class="bg-gradient-to-b from-gray-50 to-white py-16">
   <div class="container mx-auto px-6 max-w-3xl text-center">
-    <h2 class="text-3xl font-semibold mb-10 inline-block pb-2 font-montserrat">Contact</h2>
-    <p class="mb-8 text-gray-700 font-poppins">
+    <h2 class="text-3xl font-semibold mb-10 inline-block pb-2 font-montserrat" data-i18n="contact.title">
+      Contact
+    </h2>
+    <p class="mb-8 text-gray-700 font-poppins" data-i18n="contact.subtitle">
       Feel free to reach out via email, LinkedIn, or the form below:
     </p>
 
@@ -262,7 +288,7 @@
         <svg class="w-6 h-6 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
           <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
         </svg>
-        <span>poncedeleon.magdalena.s@gmail.com</span>
+        <span data-i18n="contact.email">poncedeleon.magdalena.s@gmail.com</span>
       </a>
 
       <!-- LinkedIn Button -->
@@ -272,21 +298,21 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
         </svg>
-        <span>LinkedIn Profile</span>
+        <span data-i18n="contact.linkedin">LinkedIn Profile</span>
       </a>
     </div>
 
     <!-- Contact Form (Mailto) -->
     <form id="mailtoForm" class="bg-white p-8 rounded-lg shadow-md max-w-xl mx-auto text-left font-poppins">
       <div class="mb-4">
-        <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+        <label for="name" class="block text-gray-700 font-semibold mb-2" data-i18n="contact.form.name">Name</label>
         <input type="text" id="name" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue">
       </div>
       <div class="mb-4">
-        <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+        <label for="message" class="block text-gray-700 font-semibold mb-2" data-i18n="contact.form.message">Message</label>
         <textarea id="message" rows="5" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue"></textarea>
       </div>
-      <button id="sendMessageBtn" type="button" class="bg-blue-900 hover:bg-blue-900 text-white font-semibold py-3 px-6 rounded shadow transition-colors duration-300">
+      <button id="sendMessageBtn" type="button" class="bg-blue-900 hover:bg-blue-900 text-white font-semibold py-3 px-6 rounded shadow transition-colors duration-300" data-i18n="contact.form.button">
         Send Message
       </button>
     </form>
@@ -294,34 +320,36 @@
 </section>
 
 
-
   <!-- Footer -->
-  <footer class="bg-blue-900 text-white py-6 mt-12">
-    <div class="container mx-auto px-6 text-center text-sm flex flex-col sm:flex-row sm:justify-center sm:space-x-6 items-center gap-3">
-      <span>&copy; 2025 | Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist. All rights reserved.</span>
-      
-      <!-- Email -->
-      <a href="mailto:poncedeleon.magdalena.s@gmail.com" class="hover:underline flex items-center text-white" aria-label="Email">
-        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-        </svg>
-        poncedeleon.magdalena.s@gmail.com
-      </a>
+<footer class="bg-blue-900 text-white py-6 mt-12">
+  <div class="container mx-auto px-6 text-center text-sm flex flex-col sm:flex-row sm:justify-center sm:space-x-6 items-center gap-3">
+    <span data-i18n="footer.copyright">
+      &copy; 2025 | Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist. All rights reserved.
+    </span>
+    
+    <!-- Email -->
+    <a href="mailto:poncedeleon.magdalena.s@gmail.com" class="hover:underline flex items-center text-white" aria-label="Email">
+      <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+      <span data-i18n="footer.email">poncedeleon.magdalena.s@gmail.com</span>
+    </a>
 
-      <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/magdalena-ponce-de-león-1125b9154" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center text-white" aria-label="LinkedIn Profile">
-        <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 
-            2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
-            19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 
-            1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 
-            11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 
-            1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
-        </svg>
-        LinkedIn
-      </a>
-    </div>
-  </footer>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/magdalena-ponce-de-león-1125b9154" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center text-white" aria-label="LinkedIn Profile">
+      <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 
+          2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
+          19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 
+          1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 
+          11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 
+          1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
+      </svg>
+      <span data-i18n="footer.linkedin">LinkedIn</span>
+    </a>
+  </div>
+</footer>
+
 
   <script src="script.js"></script>
 </body>
