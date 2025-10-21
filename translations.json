@@ -1,0 +1,682 @@
+{
+    "en": {
+        "header": {
+            "name": "Magdalena Ponce de León",
+            "subtitle": "Neuroimaging & Data Analytics Specialist",
+            "home": "Home",
+            "about": "About",
+            "services": "Services",
+            "imaging-insights": "Imaging Insights",
+            "visuals-communication": "Visuals & Communication",
+            "posts": "Posts",
+            "contact": "Contact",
+            "language": "Language"
+        },
+        "index": {
+            "hero": {
+                "title": "Advanced Neuroimaging Processing & Communication",
+                "subtitle": "Helping biotech, neurotech, and clinical teams transform complex imaging data into <strong>accurate insights</strong> and <strong>clear, high-impact reports</strong> for research, clinical decisions, and stakeholders.",
+                "explore_services": "Explore Services",
+                "book_consultation": "Book a Free Consultation"
+            },
+            "services": {
+                "title": "Services",
+                "subtitle": "Tailored solutions that transform complex neuroimaging data into actionable insights, high-impact scientific communication, and clear reports for stakeholders.",
+                "data_processing": {
+                    "title": "Data Processing & Imaging Insights",
+                    "description": "Turn raw neuroimaging data into <b>fast, reliable insights</b> for clinical, research, and strategic decisions. Accurate preprocessing, quantification, modeling, and reproducible reports help your team focus on innovation and patient care.",
+                    "learn_more": "Learn more →"
+                },
+                "visuals_communication": {
+                    "title": "Visuals & Scientific Communication",
+                    "description": "Create <b>professional figures, presentations, manuscripts, and stakeholder reports</b> that clearly communicate results. Improve clarity, impact, and engagement for journals, collaborators, investors, and decision-makers.",
+                    "learn_more": "Learn more →"
+                }
+            },
+            "cta": {
+                "title": "Maximize the Impact of Your Neuroimaging Data",
+                "subtitle": "Partner with us to turn complex imaging data into <strong>actionable insights, clear reports, and impactful visuals</strong> that accelerate research, clinical decisions, and stakeholder engagement.",
+                "button": "Book a Free Consultation"
+            },
+            "latest_posts": {
+                "title": "Latest Posts"
+            }
+        },
+        "about": {
+            "title": "About",
+            "description": [
+                "<strong>Magdalena Ponce de León</strong> is an independent neuroimaging consultant and PhD candidate in Clinical Neurosciences at the Medical University of Vienna, with 6+ years of experience in PET/MRI workflows, quantitative imaging, and advanced data analysis. She partners with imaging centers, clinical teams, and research groups to transform complex imaging data into <strong>actionable, stakeholder-ready insights</strong> that enhance diagnostics, research, and decision-making.",
+                "Her expertise spans MATLAB, Python, R, SPM12, FSL, FreeSurfer, ANTs, and PMOD, enabling the design of tailored, reproducible pipelines for preprocessing, volume of interest segmentation, quantification, and reporting — improving diagnostic precision and operational efficiency.",
+                "Multilingual (Spanish, English, Italian, German) and experienced in international, multidisciplinary collaborations, Magdalena provides consultancy to optimize workflows, reporting, and scientific communication for clinical and research teams."
+            ],
+            "publications_title": "Selected Publications"
+        },
+        "data_processing": {
+            "hero": {
+                "title": "Data Processing & Imaging Insights",
+                "subtitle": "Transform raw neuroimaging data into <strong>accurate, reproducible insights</strong> that drive better diagnostics, research, and actionable outcomes for stakeholders."
+            },
+            "core_expertise": {
+                "motion_correction": {
+                    "title": "Motion Correction",
+                    "description": "Minimize patient movement artifacts to preserve signal integrity and ensure reliable diagnostics."
+                },
+                "multimodal_alignment": {
+                    "title": "Multimodal Alignment",
+                    "description": "Integrate PET, MRI, CT, and SPECT scans for precise and consistent cross-modality insights."
+                },
+                "voi_segmentation": {
+                    "title": "VOI Segmentation & Quantification",
+                    "description": "Extract critical metrics from regions of interest to produce ready-to-analyze imaging datasets."
+                },
+                "statistical_analysis": {
+                    "title": "Statistical Analysis & Modeling",
+                    "description": "Identify trends, validate hypotheses, and quantify treatment effects with robust statistical workflows."
+                },
+                "custom_workflows": {
+                    "title": "Customized Workflows",
+                    "description": "Tailored, transparent pipelines adapted to your data and objectives — ensuring reproducibility and compliance."
+                }
+            },
+            "deliverables": {
+                "title": "Deliverables & Benefits",
+                "subtitle": "Beyond processing, we provide actionable outputs that support decision-making, collaboration, and clinical confidence:",
+                "items": [
+                    "Clear, stakeholder-ready reports: Easy-to-read outputs for clinicians, researchers, and management.",
+                    "Actionable insights: Highlighting key trends, anomalies, and statistically significant findings.",
+                    "Integrated cross-modality summaries: PET, MRI, CT, and SPECT results combined for a complete overview.",
+                    "Compliance-ready datasets: Ready for regulatory submissions, research replication, or clinical review."
+                ]
+            },
+            "workflow": {
+                "title": "How It Works",
+                "steps": [
+                    {
+                        "title": "1. Data Upload",
+                        "description": "Securely submit your imaging datasets."
+                    },
+                    {
+                        "title": "2. Preprocessing & Alignment",
+                        "description": "Motion correction, alignment, and quality control for reliable analysis."
+                    },
+                    {
+                        "title": "3. Quantification & Analysis",
+                        "description": "Extract volumes of interest, model statistics, and generate key metrics."
+                    },
+                    {
+                        "title": "4. Reports & Insights",
+                        "description": "Deliver clear, actionable reports for stakeholders, researchers, and clinicians."
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Optimize Your Imaging Data with Precision",
+                "subtitle": "Partner with us to turn complex imaging datasets into <strong>actionable insights, clear reports, and confident decisions</strong> for clinical teams, researchers, and stakeholders.",
+                "button": "Schedule a Consultation"
+            }
+        },
+        "visual_material": {
+            "hero": {
+                "title": "Visuals & Scientific Communication",
+                "subtitle": "Turn complex data into <strong>clear, publication-ready visuals and narratives</strong> that elevate your research visibility and strengthen scientific communication."
+            },
+            "expertise": {
+                "figures_infographics": {
+                    "title": "Publication-Ready Figures & Infographics",
+                    "description": "Convert raw results into polished, high-resolution figures and visual summaries designed for scientific journals and conferences. Ensure accuracy, clarity, and compliance with publisher standards."
+                },
+                "poster_slides": {
+                    "title": "Poster & Slide Design",
+                    "description": "Create professional, visually engaging posters and presentations structured for clear storytelling and maximum audience engagement at conferences and internal meetings."
+                },
+                "oral_presentations": {
+                    "title": "Oral Presentations",
+                    "description": "Develop confident, compelling talks that effectively communicate key findings to diverse audiences — from scientific peers to clinical collaborators and investors."
+                },
+                "writing_editing": {
+                    "title": "Scientific Writing & Editing",
+                    "description": "Refine manuscripts and abstracts for clarity, structure, and impact. We help ensure your writing meets journal standards and highlights your research significance."
+                },
+                "grant_writing": {
+                    "title": "Grant Writing & Proposals",
+                    "description": "Craft persuasive, evidence-based proposals that secure funding and demonstrate project feasibility. We provide strategic input, editing, and compliance alignment with funding bodies."
+                },
+                "conference_support": {
+                    "title": "Conference & Collaboration Support",
+                    "description": "Increase your professional reach through coordinated abstract submissions, collaboration materials, and logistical preparation for conferences and multi-center projects."
+                }
+            },
+            "cta": {
+                "title": "Make Your Research Stand Out",
+                "subtitle": "Work with us to create impactful visuals and communications that clarify your message, amplify your credibility, and accelerate the reach of your discoveries.",
+                "button": "Get Professional Support"
+            }
+        },
+        "contact": {
+            "title": "Contact",
+            "subtitle": "Feel free to reach out via email, LinkedIn, or the form below:",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "LinkedIn Profile",
+            "form": {
+                "name": "Name",
+                "message": "Message",
+                "button": "Send Message"
+            }
+        },
+        "footer": {
+            "copyright": "© 2025 | Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist. All rights reserved.",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "LinkedIn"
+        }
+    },
+    "de": {
+        "header": {
+            "name": "Magdalena Ponce de León",
+            "subtitle": "Spezialistin für Neuroimaging & Datenanalyse",
+            "home": "Startseite",
+            "about": "Über uns",
+            "services": "Leistungen",
+            "imaging-insights": "Bildgebungsanalysen",
+            "visuals-communication": "Visualisierung & Kommunikation",
+            "posts": "Beiträge",
+            "contact": "Kontakt",
+            "language": "Sprache"
+        },
+        "index": {
+            "hero": {
+                "title": "Fortgeschrittene Neuroimaging-Verarbeitung & Kommunikation",
+                "subtitle": "Unterstützung von Biotech-, Neurotech- und Klinikteams bei der Umwandlung komplexer Bildgebungsdaten in <strong>präzise Erkenntnisse</strong> und <strong>klare, wirkungsvolle Berichte</strong> für Forschung, klinische Entscheidungen und Stakeholder.",
+                "explore_services": "Leistungen entdecken",
+                "book_consultation": "Kostenloses Beratungsgespräch buchen"
+            },
+            "services": {
+                "title": "Leistungen",
+                "subtitle": "Maßgeschneiderte Lösungen, die komplexe Neuroimaging-Daten in umsetzbare Erkenntnisse, wirkungsvolle wissenschaftliche Kommunikation und klare Berichte für Stakeholder verwandeln.",
+                "data_processing": {
+                    "title": "Datenverarbeitung & Bildgebungsanalysen",
+                    "description": "Verwandeln Sie Rohdaten der Neurobildgebung in <b>schnelle, verlässliche Erkenntnisse</b> für klinische, forschungsbezogene und strategische Entscheidungen. Präzise Vorverarbeitung, Quantifizierung, Modellierung und reproduzierbare Berichte ermöglichen Ihrem Team, sich auf Innovation und Patientenversorgung zu konzentrieren.",
+                    "learn_more": "Mehr erfahren →"
+                },
+                "visuals_communication": {
+                    "title": "Visualisierung & Wissenschaftliche Kommunikation",
+                    "description": "Erstellen Sie <b>professionelle Abbildungen, Präsentationen, Manuskripte und Berichte</b>, die Ergebnisse klar vermitteln. Verbessern Sie Verständlichkeit, Wirkung und Engagement für Fachzeitschriften, Partner, Investoren und Entscheidungsträger.",
+                    "learn_more": "Mehr erfahren →"
+                }
+            },
+            "cta": {
+                "title": "Maximieren Sie den Einfluss Ihrer Neuroimaging-Daten",
+                "subtitle": "Arbeiten Sie mit uns zusammen, um komplexe Bildgebungsdaten in <strong>umsetzbare Erkenntnisse, klare Berichte und wirkungsvolle Visualisierungen</strong> umzuwandeln, die Forschung, klinische Entscheidungen und Stakeholder-Engagement beschleunigen.",
+                "button": "Kostenloses Beratungsgespräch buchen"
+            },
+            "latest_posts": {
+                "title": "Neueste Beiträge"
+            }
+        },
+        "about": {
+            "title": "Über uns",
+            "description": [
+                "<strong>Magdalena Ponce de León</strong> ist unabhängige Neuroimaging-Beraterin und Doktorandin in Klinischen Neurowissenschaften an der Medizinischen Universität Wien mit über 6 Jahren Erfahrung in PET/MRT-Workflows, quantitativer Bildgebung und fortgeschrittener Datenanalyse. Sie arbeitet mit Bildgebungszentren, klinischen Teams und Forschungsgruppen zusammen, um komplexe Bildgebungsdaten in <strong>umsetzbare, stakeholdergerechte Erkenntnisse</strong> umzuwandeln, die Diagnostik, Forschung und Entscheidungsfindung verbessern.",
+                "Ihre Expertise umfasst MATLAB, Python, R, SPM12, FSL, FreeSurfer, ANTs und PMOD. Sie entwickelt maßgeschneiderte, reproduzierbare Pipelines für Vorverarbeitung, Volumen-Of-Interest-Segmentierung, Quantifizierung und Berichterstellung – zur Verbesserung diagnostischer Präzision und betrieblicher Effizienz.",
+                "Mehrsprachig (Spanisch, Englisch, Italienisch, Deutsch) und erfahren in internationalen, multidisziplinären Kooperationen, bietet Magdalena Beratungen zur Optimierung von Workflows, Berichterstattung und wissenschaftlicher Kommunikation für klinische und Forschungsteams an."
+            ],
+            "publications_title": "Ausgewählte Publikationen"
+        },
+        "data_processing": {
+            "hero": {
+                "title": "Datenverarbeitung & Bildgebungsanalysen",
+                "subtitle": "Verwandeln Sie Rohdaten der Neurobildgebung in <strong>präzise, reproduzierbare Erkenntnisse</strong>, die bessere Diagnostik, Forschung und handlungsrelevante Ergebnisse für Stakeholder ermöglichen."
+            },
+            "core_expertise": {
+                "motion_correction": {
+                    "title": "Bewegungskorrektur",
+                    "description": "Minimieren Sie Bewegungsartefakte von Patienten, um die Signalintegrität zu erhalten und verlässliche Diagnosen zu gewährleisten."
+                },
+                "multimodal_alignment": {
+                    "title": "Multimodale Ausrichtung",
+                    "description": "Integrieren Sie PET-, MRT-, CT- und SPECT-Scans für präzise und konsistente multimodale Erkenntnisse."
+                },
+                "voi_segmentation": {
+                    "title": "VOI-Segmentierung & Quantifizierung",
+                    "description": "Extrahieren Sie Schlüsseldaten aus interessierenden Regionen, um analysierbare Bildgebungsdatensätze zu erzeugen."
+                },
+                "statistical_analysis": {
+                    "title": "Statistische Analyse & Modellierung",
+                    "description": "Identifizieren Sie Trends, validieren Sie Hypothesen und quantifizieren Sie Behandlungseffekte mit robusten statistischen Workflows."
+                },
+                "custom_workflows": {
+                    "title": "Angepasste Workflows",
+                    "description": "Maßgeschneiderte, transparente Pipelines, abgestimmt auf Ihre Daten und Ziele – gewährleisten Reproduzierbarkeit und Compliance."
+                }
+            },
+            "deliverables": {
+                "title": "Ergebnisse & Vorteile",
+                "subtitle": "Über die Verarbeitung hinaus liefern wir umsetzbare Ergebnisse, die Entscheidungsfindung, Zusammenarbeit und klinisches Vertrauen unterstützen:",
+                "items": [
+                    "Klare, stakeholdergerechte Berichte: leicht verständliche Ausgaben für Kliniker, Forscher und Management.",
+                    "Umsetzbare Erkenntnisse: Hervorhebung wichtiger Trends, Anomalien und signifikanter Befunde.",
+                    "Integrierte multimodale Zusammenfassungen: kombinierte PET-, MRT-, CT- und SPECT-Ergebnisse für einen vollständigen Überblick.",
+                    "Compliance-fertige Datensätze: bereit für regulatorische Einreichungen, Forschungsreplikation oder klinische Überprüfung."
+                ]
+            },
+            "workflow": {
+                "title": "Ablauf",
+                "steps": [
+                    {
+                        "title": "1. Datenupload",
+                        "description": "Übermitteln Sie Ihre Bildgebungsdatensätze sicher."
+                    },
+                    {
+                        "title": "2. Vorverarbeitung & Ausrichtung",
+                        "description": "Bewegungskorrektur, Ausrichtung und Qualitätskontrolle für verlässliche Analysen."
+                    },
+                    {
+                        "title": "3. Quantifizierung & Analyse",
+                        "description": "Extrahieren Sie Volumina von Interesse, modellieren Sie Statistiken und generieren Sie Kennzahlen."
+                    },
+                    {
+                        "title": "4. Berichte & Erkenntnisse",
+                        "description": "Liefern Sie klare, umsetzbare Berichte für Stakeholder, Forscher und Kliniker."
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Optimieren Sie Ihre Bildgebungsdaten mit Präzision",
+                "subtitle": "Arbeiten Sie mit uns zusammen, um komplexe Datensätze in <strong>umsetzbare Erkenntnisse, klare Berichte und fundierte Entscheidungen</strong> für klinische Teams, Forscher und Stakeholder zu verwandeln.",
+                "button": "Beratung vereinbaren"
+            }
+        },
+        "visual_material": {
+            "hero": {
+                "title": "Visualisierung & Wissenschaftliche Kommunikation",
+                "subtitle": "Verwandeln Sie komplexe Daten in <strong>klare, publikationsreife Visualisierungen und Narrative</strong>, die die Sichtbarkeit Ihrer Forschung erhöhen und die wissenschaftliche Kommunikation stärken."
+            },
+            "expertise": {
+                "figures_infographics": {
+                    "title": "Publikationsreife Abbildungen & Infografiken",
+                    "description": "Verwandeln Sie Rohdaten in hochwertige, hochauflösende Abbildungen und visuelle Zusammenfassungen für wissenschaftliche Zeitschriften und Konferenzen. Gewährleisten Sie Genauigkeit, Klarheit und Einhaltung der Verlagsstandards."
+                },
+                "poster_slides": {
+                    "title": "Poster- & Foliendesign",
+                    "description": "Erstellen Sie professionelle, visuell ansprechende Poster und Präsentationen mit klarer Struktur und maximalem Publikumsengagement für Konferenzen und interne Meetings."
+                },
+                "oral_presentations": {
+                    "title": "Mündliche Präsentationen",
+                    "description": "Entwickeln Sie selbstbewusste, überzeugende Vorträge, die zentrale Ergebnisse effektiv an unterschiedliche Zielgruppen kommunizieren – von wissenschaftlichen Fachkollegen bis zu klinischen Partnern und Investoren."
+                },
+                "writing_editing": {
+                    "title": "Wissenschaftliches Schreiben & Redaktion",
+                    "description": "Überarbeiten Sie Manuskripte und Abstracts hinsichtlich Klarheit, Struktur und Wirkung. Wir stellen sicher, dass Ihr Text den Journalstandards entspricht und die Bedeutung Ihrer Forschung hervorhebt."
+                },
+                "grant_writing": {
+                    "title": "Förderanträge & Projektvorschläge",
+                    "description": "Erstellen Sie überzeugende, evidenzbasierte Anträge, die Finanzierung sichern und Projektumsetzbarkeit nachweisen. Wir bieten strategische Beratung, Redaktion und Abstimmung mit Förderinstitutionen."
+                },
+                "conference_support": {
+                    "title": "Konferenz- & Kooperationsunterstützung",
+                    "description": "Erweitern Sie Ihre berufliche Reichweite durch koordinierte Abstract-Einreichungen, Kooperationsmaterialien und logistische Vorbereitung für Konferenzen und multizentrische Projekte."
+                }
+            },
+            "cta": {
+                "title": "Machen Sie Ihre Forschung sichtbar",
+                "subtitle": "Arbeiten Sie mit uns zusammen, um wirkungsvolle Visualisierungen und Kommunikationsmaterialien zu erstellen, die Ihre Botschaft klären, Ihre Glaubwürdigkeit stärken und die Reichweite Ihrer Entdeckungen beschleunigen.",
+                "button": "Professionelle Unterstützung anfordern"
+            }
+        },
+        "contact": {
+            "title": "Kontakt",
+            "subtitle": "Kontaktieren Sie uns gerne per E-Mail, LinkedIn oder über das folgende Formular:",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "LinkedIn-Profil",
+            "form": {
+                "name": "Name",
+                "message": "Nachricht",
+                "button": "Nachricht senden"
+            }
+        },
+        "footer": {
+            "copyright": "© 2025 | Magdalena Ponce de León | Spezialistin für Neuroimaging & Datenanalyse. Alle Rechte vorbehalten.",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "LinkedIn"
+        }
+    },
+    "es": {
+        "header": {
+            "name": "Magdalena Ponce de León",
+            "subtitle": "Especialista en Neuroimagen y Análisis de Datos",
+            "home": "Inicio",
+            "about": "Acerca de",
+            "services": "Servicios",
+            "imaging-insights": "Perspectivas de Imagen",
+            "visuals-communication": "Visuales y Comunicación",
+            "posts": "Publicaciones",
+            "contact": "Contacto",
+            "language": "Idioma"
+        },
+        "index": {
+            "hero": {
+                "title": "Procesamiento Avanzado en Neuroimagen y Comunicación",
+                "subtitle": "Ayudando a equipos de biotecnología, neurotecnología y clínicos a transformar datos de imagen complejos en <strong>información precisa</strong> y <strong>reportes claros y de alto impacto</strong> para la investigación, las decisiones clínicas y los interesados.",
+                "explore_services": "Explorar Servicios",
+                "book_consultation": "Reservar una Consulta Gratuita"
+            },
+            "services": {
+                "title": "Servicios",
+                "subtitle": "Soluciones personalizadas que transforman datos complejos de neuroimagen en información accionable, comunicación científica de alto impacto y reportes claros para los interesados.",
+                "data_processing": {
+                    "title": "Procesamiento de Datos y Perspectivas de Imagen",
+                    "description": "Transforma datos brutos de neuroimagen en <b>información rápida y confiable</b> para decisiones clínicas, de investigación y estratégicas. El preprocesamiento preciso, la cuantificación, el modelado y los reportes reproducibles ayudan a tu equipo a enfocarse en la innovación y el cuidado del paciente.",
+                    "learn_more": "Saber más →"
+                },
+                "visuals_communication": {
+                    "title": "Visuales y Comunicación Científica",
+                    "description": "Crea <b>figuras profesionales, presentaciones, manuscritos y reportes para interesados</b> que comuniquen claramente los resultados. Mejora la claridad, el impacto y el compromiso para revistas, colaboradores, inversionistas y tomadores de decisiones.",
+                    "learn_more": "Saber más →"
+                }
+            },
+            "cta": {
+                "title": "Maximiza el Impacto de Tus Datos de Neuroimagen",
+                "subtitle": "Colabora con nosotros para transformar datos de imagen complejos en <strong>información accionable, reportes claros y visuales impactantes</strong> que aceleren la investigación, las decisiones clínicas y la participación de los interesados.",
+                "button": "Reservar una Consulta Gratuita"
+            },
+            "latest_posts": {
+                "title": "Últimas Publicaciones"
+            }
+        },
+        "about": {
+            "title": "Acerca de",
+            "description": [
+                "<strong>Magdalena Ponce de León</strong> es consultora independiente en neuroimagen y candidata a doctorado en Neurociencias Clínicas en la Universidad Médica de Viena, con más de 6 años de experiencia en flujos de trabajo PET/MRI, imagen cuantitativa y análisis avanzado de datos. Colabora con centros de imagen, equipos clínicos y grupos de investigación para transformar datos de imagen complejos en <strong>información accionable y lista para los interesados</strong> que mejora el diagnóstico, la investigación y la toma de decisiones.",
+                "Su experiencia abarca MATLAB, Python, R, SPM12, FSL, FreeSurfer, ANTs y PMOD, lo que permite diseñar flujos de trabajo personalizados y reproducibles para el preprocesamiento, segmentación de volúmenes de interés, cuantificación y generación de reportes — mejorando la precisión diagnóstica y la eficiencia operativa.",
+                "Multilingüe (español, inglés, italiano, alemán) y con experiencia en colaboraciones internacionales y multidisciplinarias, Magdalena ofrece consultoría para optimizar flujos de trabajo, reportes y comunicación científica para equipos clínicos y de investigación."
+            ],
+            "publications_title": "Publicaciones Seleccionadas"
+        },
+        "data_processing": {
+            "hero": {
+                "title": "Procesamiento de Datos y Perspectivas de Imagen",
+                "subtitle": "Transforma datos brutos de neuroimagen en <strong>información precisa y reproducible</strong> que impulse mejores diagnósticos, investigaciones y resultados accionables para los interesados."
+            },
+            "core_expertise": {
+                "motion_correction": {
+                    "title": "Corrección de Movimiento",
+                    "description": "Minimiza los artefactos por movimiento del paciente para preservar la integridad de la señal y asegurar diagnósticos confiables."
+                },
+                "multimodal_alignment": {
+                    "title": "Alineación Multimodal",
+                    "description": "Integra escaneos PET, MRI, CT y SPECT para obtener perspectivas precisas y coherentes entre modalidades."
+                },
+                "voi_segmentation": {
+                    "title": "Segmentación y Cuantificación de VOI",
+                    "description": "Extrae métricas clave de las regiones de interés para generar conjuntos de datos de imagen listos para analizar."
+                },
+                "statistical_analysis": {
+                    "title": "Análisis y Modelado Estadístico",
+                    "description": "Identifica tendencias, valida hipótesis y cuantifica efectos de tratamiento con flujos de trabajo estadísticos robustos."
+                },
+                "custom_workflows": {
+                    "title": "Flujos de Trabajo Personalizados",
+                    "description": "Canales transparentes adaptados a tus datos y objetivos — asegurando reproducibilidad y cumplimiento."
+                }
+            },
+            "deliverables": {
+                "title": "Entregables y Beneficios",
+                "subtitle": "Más allá del procesamiento, ofrecemos resultados accionables que respaldan la toma de decisiones, la colaboración y la confianza clínica:",
+                "items": [
+                    "Reportes claros y listos para los interesados: Resultados fáciles de interpretar para clínicos, investigadores y directivos.",
+                    "Información accionable: Destacando tendencias clave, anomalías y hallazgos estadísticamente significativos.",
+                    "Resúmenes integrados entre modalidades: Resultados PET, MRI, CT y SPECT combinados para una visión completa.",
+                    "Conjuntos de datos listos para cumplimiento: Aptos para presentaciones regulatorias, replicación de investigación o revisión clínica."
+                ]
+            },
+            "workflow": {
+                "title": "Cómo Funciona",
+                "steps": [
+                    {
+                        "title": "1. Carga de Datos",
+                        "description": "Envía de forma segura tus conjuntos de datos de imagen."
+                    },
+                    {
+                        "title": "2. Preprocesamiento y Alineación",
+                        "description": "Corrección de movimiento, alineación y control de calidad para un análisis confiable."
+                    },
+                    {
+                        "title": "3. Cuantificación y Análisis",
+                        "description": "Extrae volúmenes de interés, modela estadísticas y genera métricas clave."
+                    },
+                    {
+                        "title": "4. Reportes e Información",
+                        "description": "Entrega de reportes claros y accionables para interesados, investigadores y clínicos."
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Optimiza Tus Datos de Imagen con Precisión",
+                "subtitle": "Colabora con nosotros para transformar conjuntos de datos complejos en <strong>información accionable, reportes claros y decisiones confiables</strong> para equipos clínicos, investigadores y partes interesadas.",
+                "button": "Agendar una Consulta"
+            }
+        },
+        "visual_material": {
+            "hero": {
+                "title": "Visuales y Comunicación Científica",
+                "subtitle": "Transforma datos complejos en <strong>visuales y narrativas claras y listas para publicación</strong> que eleven la visibilidad de tu investigación y fortalezcan la comunicación científica."
+            },
+            "expertise": {
+                "figures_infographics": {
+                    "title": "Figuras e Infografías Listas para Publicación",
+                    "description": "Convierte resultados brutos en figuras pulidas y de alta resolución diseñadas para revistas científicas y congresos. Garantiza precisión, claridad y cumplimiento con los estándares editoriales."
+                },
+                "poster_slides": {
+                    "title": "Diseño de Pósters y Presentaciones",
+                    "description": "Crea pósters y presentaciones profesionales y visualmente atractivos, estructurados para una narrativa clara y máxima participación del público en congresos y reuniones internas."
+                },
+                "oral_presentations": {
+                    "title": "Presentaciones Orales",
+                    "description": "Desarrolla presentaciones seguras y convincentes que comuniquen eficazmente los hallazgos clave a audiencias diversas — desde colegas científicos hasta colaboradores clínicos e inversionistas."
+                },
+                "writing_editing": {
+                    "title": "Redacción y Edición Científica",
+                    "description": "Refina manuscritos y resúmenes para mejorar claridad, estructura e impacto. Ayudamos a asegurar que tu escritura cumpla los estándares de las revistas y resalte la relevancia de tu investigación."
+                },
+                "grant_writing": {
+                    "title": "Redacción de Subvenciones y Propuestas",
+                    "description": "Elabora propuestas persuasivas basadas en evidencia que aseguren financiamiento y demuestren la viabilidad del proyecto. Ofrecemos apoyo estratégico, edición y alineación con los requisitos de las entidades financiadoras."
+                },
+                "conference_support": {
+                    "title": "Apoyo para Conferencias y Colaboraciones",
+                    "description": "Amplía tu alcance profesional mediante la coordinación de envíos de resúmenes, materiales de colaboración y preparación logística para congresos y proyectos multicéntricos."
+                }
+            },
+            "cta": {
+                "title": "Haz que tu Investigación Destaque",
+                "subtitle": "Trabaja con nosotros para crear visuales e informes impactantes que clarifiquen tu mensaje, amplifiquen tu credibilidad y aceleren la difusión de tus descubrimientos.",
+                "button": "Obtener Apoyo Profesional"
+            }
+        },
+        "contact": {
+            "title": "Contacto",
+            "subtitle": "No dudes en comunicarte por correo electrónico, LinkedIn o mediante el siguiente formulario:",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "Perfil de LinkedIn",
+            "form": {
+                "name": "Nombre",
+                "message": "Mensaje",
+                "button": "Enviar Mensaje"
+            }
+        },
+        "footer": {
+            "copyright": "© 2025 | Magdalena Ponce de León | Especialista en Neuroimagen y Análisis de Datos. Todos los derechos reservados.",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "LinkedIn"
+        }
+    },
+    "it": {
+        "header": {
+            "name": "Magdalena Ponce de León",
+            "subtitle": "Specialista in Neuroimaging e Analisi dei Dati",
+            "home": "Home",
+            "about": "Informazioni",
+            "services": "Servizi",
+            "imaging-insights": "Approfondimenti di Imaging",
+            "visuals-communication": "Visual e Comunicazione",
+            "posts": "Articoli",
+            "contact": "Contatti",
+            "language": "Lingua"
+        },
+        "index": {
+            "hero": {
+                "title": "Elaborazione e Comunicazione Avanzata in Neuroimaging",
+                "subtitle": "Aiuto team di biotecnologia, neurotecnologia e clinici a trasformare dati di imaging complessi in <strong>analisi precise</strong> e <strong>report chiari e ad alto impatto</strong> per la ricerca, le decisioni cliniche e gli stakeholder.",
+                "explore_services": "Esplora i Servizi",
+                "book_consultation": "Prenota una Consulenza Gratuita"
+            },
+            "services": {
+                "title": "Servizi",
+                "subtitle": "Soluzioni su misura che trasformano dati complessi di neuroimaging in insight utili, comunicazione scientifica ad alto impatto e report chiari per gli stakeholder.",
+                "data_processing": {
+                    "title": "Elaborazione Dati e Approfondimenti di Imaging",
+                    "description": "Trasforma i dati grezzi di neuroimaging in <b>analisi rapide e affidabili</b> per decisioni cliniche, di ricerca e strategiche. Pre-elaborazione accurata, quantificazione, modellazione e report riproducibili aiutano il tuo team a concentrarsi su innovazione e cura del paziente.",
+                    "learn_more": "Scopri di più →"
+                },
+                "visuals_communication": {
+                    "title": "Visual e Comunicazione Scientifica",
+                    "description": "Crea <b>figure professionali, presentazioni, manoscritti e report per stakeholder</b> che comunichino chiaramente i risultati. Migliora chiarezza, impatto e coinvolgimento per riviste, collaboratori, investitori e decisori.",
+                    "learn_more": "Scopri di più →"
+                }
+            },
+            "cta": {
+                "title": "Massimizza l’Impatto dei Tuoi Dati di Neuroimaging",
+                "subtitle": "Collabora con noi per trasformare dati di imaging complessi in <strong>analisi utili, report chiari e visual di impatto</strong> che accelerano la ricerca, le decisioni cliniche e il coinvolgimento degli stakeholder.",
+                "button": "Prenota una Consulenza Gratuita"
+            },
+            "latest_posts": {
+                "title": "Ultimi Articoli"
+            }
+        },
+        "about": {
+            "title": "Informazioni",
+            "description": [
+                "<strong>Magdalena Ponce de León</strong> è una consulente indipendente in neuroimaging e dottoranda in Neuroscienze Cliniche presso l’Università Medica di Vienna, con oltre 6 anni di esperienza in flussi di lavoro PET/MRI, imaging quantitativo e analisi avanzata dei dati. Collabora con centri di imaging, team clinici e gruppi di ricerca per trasformare dati di imaging complessi in <strong>analisi utilizzabili e pronte per gli stakeholder</strong> che migliorano diagnosi, ricerca e processo decisionale.",
+                "La sua esperienza comprende MATLAB, Python, R, SPM12, FSL, FreeSurfer, ANTs e PMOD, consentendo la progettazione di pipeline personalizzate e riproducibili per la pre-elaborazione, segmentazione di volumi di interesse, quantificazione e reportistica — migliorando la precisione diagnostica e l’efficienza operativa.",
+                "Multilingue (spagnolo, inglese, italiano, tedesco) e con esperienza in collaborazioni internazionali e multidisciplinari, Magdalena offre consulenze per ottimizzare flussi di lavoro, report e comunicazione scientifica per team clinici e di ricerca."
+            ],
+            "publications_title": "Pubblicazioni Selezionate"
+        },
+        "data_processing": {
+            "hero": {
+                "title": "Elaborazione Dati e Approfondimenti di Imaging",
+                "subtitle": "Trasforma dati grezzi di neuroimaging in <strong>analisi accurate e riproducibili</strong> che favoriscono diagnosi migliori, ricerca e risultati concreti per gli stakeholder."
+            },
+            "core_expertise": {
+                "motion_correction": {
+                    "title": "Correzione del Movimento",
+                    "description": "Riduci gli artefatti dovuti ai movimenti del paziente per preservare l’integrità del segnale e garantire diagnosi affidabili."
+                },
+                "multimodal_alignment": {
+                    "title": "Allineamento Multimodale",
+                    "description": "Integra scansioni PET, MRI, CT e SPECT per ottenere analisi precise e coerenti tra diverse modalità."
+                },
+                "voi_segmentation": {
+                    "title": "Segmentazione e Quantificazione VOI",
+                    "description": "Estrai metriche fondamentali dalle regioni di interesse per generare set di dati di imaging pronti per l’analisi."
+                },
+                "statistical_analysis": {
+                    "title": "Analisi Statistica e Modellazione",
+                    "description": "Identifica tendenze, valida ipotesi e quantifica gli effetti del trattamento con flussi di lavoro statistici robusti."
+                },
+                "custom_workflows": {
+                    "title": "Flussi di Lavoro Personalizzati",
+                    "description": "Pipeline trasparenti e adattate ai tuoi dati e obiettivi — garantendo riproducibilità e conformità."
+                }
+            },
+            "deliverables": {
+                "title": "Risultati e Benefici",
+                "subtitle": "Oltre all’elaborazione, forniamo output utili che supportano il processo decisionale, la collaborazione e la fiducia clinica:",
+                "items": [
+                    "Report chiari e pronti per gli stakeholder: Output facili da leggere per clinici, ricercatori e dirigenti.",
+                    "Analisi utilizzabili: Evidenzia tendenze chiave, anomalie e risultati statisticamente significativi.",
+                    "Riepiloghi integrati tra modalità: Risultati PET, MRI, CT e SPECT combinati per una panoramica completa.",
+                    "Set di dati conformi: Pronti per invii regolatori, repliche di ricerca o revisioni cliniche."
+                ]
+            },
+            "workflow": {
+                "title": "Come Funziona",
+                "steps": [
+                    {
+                        "title": "1. Caricamento dei Dati",
+                        "description": "Invia in modo sicuro i tuoi set di dati di imaging."
+                    },
+                    {
+                        "title": "2. Pre-elaborazione e Allineamento",
+                        "description": "Correzione del movimento, allineamento e controllo qualità per analisi affidabili."
+                    },
+                    {
+                        "title": "3. Quantificazione e Analisi",
+                        "description": "Estrai volumi di interesse, modella statistiche e genera metriche chiave."
+                    },
+                    {
+                        "title": "4. Report e Risultati",
+                        "description": "Fornisci report chiari e utilizzabili per stakeholder, ricercatori e clinici."
+                    }
+                ]
+            },
+            "cta": {
+                "title": "Ottimizza i Tuoi Dati di Imaging con Precisione",
+                "subtitle": "Collabora con noi per trasformare set di dati complessi in <strong>analisi utilizzabili, report chiari e decisioni sicure</strong> per team clinici, ricercatori e stakeholder.",
+                "button": "Prenota una Consulenza"
+            }
+        },
+        "visual_material": {
+            "hero": {
+                "title": "Visual e Comunicazione Scientifica",
+                "subtitle": "Trasforma dati complessi in <strong>visual e narrazioni chiari e pronti per la pubblicazione</strong> che aumentano la visibilità della tua ricerca e rafforzano la comunicazione scientifica."
+            },
+            "expertise": {
+                "figures_infographics": {
+                    "title": "Figure e Infografiche Pronte per la Pubblicazione",
+                    "description": "Converti risultati grezzi in figure rifinite ad alta risoluzione e sintesi visive progettate per riviste scientifiche e conferenze. Garantisci accuratezza, chiarezza e conformità agli standard editoriali."
+                },
+                "poster_slides": {
+                    "title": "Design di Poster e Presentazioni",
+                    "description": "Crea poster e presentazioni professionali e accattivanti, strutturati per una narrazione chiara e il massimo coinvolgimento del pubblico durante conferenze e riunioni interne."
+                },
+                "oral_presentations": {
+                    "title": "Presentazioni Orali",
+                    "description": "Sviluppa presentazioni sicure e convincenti che comunichino efficacemente i risultati principali a pubblici diversi — da colleghi scientifici a collaboratori clinici e investitori."
+                },
+                "writing_editing": {
+                    "title": "Scrittura ed Editing Scientifico",
+                    "description": "Raffina manoscritti e abstract per chiarezza, struttura e impatto. Ti aiutiamo a garantire che il testo rispetti gli standard editoriali e metta in evidenza la rilevanza della tua ricerca."
+                },
+                "grant_writing": {
+                    "title": "Scrittura di Progetti e Proposte",
+                    "description": "Redigi proposte persuasive basate su prove che ottengano finanziamenti e dimostrino la fattibilità del progetto. Forniamo supporto strategico, revisione e conformità ai requisiti degli enti finanziatori."
+                },
+                "conference_support": {
+                    "title": "Supporto per Conferenze e Collaborazioni",
+                    "description": "Espandi la tua rete professionale tramite l’invio coordinato di abstract, materiali di collaborazione e preparazione logistica per conferenze e progetti multicentrici."
+                }
+            },
+            "cta": {
+                "title": "Fai Distinguere la Tua Ricerca",
+                "subtitle": "Lavora con noi per creare visual e comunicazioni di impatto che chiariscano il tuo messaggio, aumentino la tua credibilità e accelerino la diffusione delle tue scoperte.",
+                "button": "Ottieni Supporto Professionale"
+            }
+        },
+        "contact": {
+            "title": "Contatti",
+            "subtitle": "Contattami via email, LinkedIn o tramite il modulo qui sotto:",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "Profilo LinkedIn",
+            "form": {
+                "name": "Nome",
+                "message": "Messaggio",
+                "button": "Invia Messaggio"
+            }
+        },
+        "footer": {
+            "copyright": "© 2025 | Magdalena Ponce de León | Specialista in Neuroimaging e Analisi dei Dati. Tutti i diritti riservati.",
+            "email": "poncedeleon.magdalena.s@gmail.com",
+            "linkedin": "LinkedIn"
+        }
+    }
+}
