@@ -1,5 +1,10 @@
 [
   {
+    "title": "From Power BI to custom dashboards: what I learned",
+    "summary": "Before I used standard dashboard tools to track and visualize data. They were quick to set up and great for simple projects. But as my work became more complex, especially in research, imaging, and health data, I kept running into the same limitations: 𝗳𝗶𝘅𝗲𝗱 𝗹𝗮𝘆𝗼𝘂𝘁𝘀, 𝘀𝗹𝗼𝘄 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 𝘄𝗶𝘁𝗵 𝗹𝗮𝗿𝗴𝗲 𝗱𝗮𝘁𝗮𝘀𝗲𝘁𝘀 𝗮𝗻𝗱 𝗲𝗻𝗱𝗹𝗲𝘀𝘀 𝘀𝗺𝗮𝗹𝗹 𝘄𝗼𝗿𝗸𝗮𝗿𝗼𝘂𝗻𝗱𝘀.<br><br>The turning point came during a project that needed things those tools simply couldn’t do: custom calculations, interactive features, and smooth integration with other analysis workflows.<br><br>So I decided to build my fully custom dashboard...",
+    "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_datavisualization-dashboards-customdashboards-activity-7396935083846164480-Ql8T?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
+  },
+  {
     "title": "Why hypothesis definition matters before imaging starts",
     "summary": "Many imaging studies fail after data collection, not because the scans were bad, but because the hypothesis wasn’t defined clearly enough.<br><br>Without a precise research question:<br>❌ The analysis plan drifts<br>❌ Metrics don’t align with the biological goal<br>❌ Results become difficult to interpret or defend<br><br>Clarity upfront saves time, money, and credibility later...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_biotech-neuroimaging-clinicalresearch-activity-7394324845800357888-zgGB?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
