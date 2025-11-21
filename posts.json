@@ -1,5 +1,10 @@
 [
   {
+    "title": "Creating useful software starts with understanding who will use it",
+    "summary": "As technicians, we are used to complex systems, detailed menus, and advanced settings. But clinicians operate in a completely different environment. They are 𝗼𝘃𝗲𝗿𝗯𝗼𝗼𝗸𝗲𝗱, 𝘁𝗶𝗺𝗲-𝗽𝗿𝗲𝘀𝘀𝘂𝗿𝗲𝗱, 𝗮𝗻𝗱 𝗳𝗼𝗰𝘂𝘀𝗲𝗱 𝗼𝗻 𝗽𝗮𝘁𝗶𝗲𝗻𝘁 𝗰𝗮𝗿𝗲, not on deciphering complicated interfaces.<br><br>A good graphical interface should require only a few clicks. It should feel intuitive even for someone who does not share our technical background. That is part of our job: 𝘁𝗿𝗮𝗻𝘀𝗹𝗮𝘁𝗶𝗻𝗴 𝗰𝗼𝗺𝗽𝗹𝗲𝘅𝗶𝘁𝘆 𝗶𝗻𝘁𝗼 𝗰𝗹𝗮𝗿𝗶𝘁𝘆.<br><br>The same applies to...",
+    "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_creating-useful-software-starts-with-understanding-ugcPost-7397543268382601216-0OxX?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
+  },
+  {
     "title": "From Power BI to custom dashboards: what I learned",
     "summary": "Before I used standard dashboard tools to track and visualize data. They were quick to set up and great for simple projects. But as my work became more complex, especially in research, imaging, and health data, I kept running into the same limitations: 𝗳𝗶𝘅𝗲𝗱 𝗹𝗮𝘆𝗼𝘂𝘁𝘀, 𝘀𝗹𝗼𝘄 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲 𝘄𝗶𝘁𝗵 𝗹𝗮𝗿𝗴𝗲 𝗱𝗮𝘁𝗮𝘀𝗲𝘁𝘀 𝗮𝗻𝗱 𝗲𝗻𝗱𝗹𝗲𝘀𝘀 𝘀𝗺𝗮𝗹𝗹 𝘄𝗼𝗿𝗸𝗮𝗿𝗼𝘂𝗻𝗱𝘀.<br><br>The turning point came during a project that needed things those tools simply couldn’t do: custom calculations, interactive features, and smooth integration with other analysis workflows.<br><br>So I decided to build my fully custom dashboard...",
     "url": "https://www.linkedin.com/posts/magdalena-ponce-de-le%C3%B3n-1125b9154_datavisualization-dashboards-customdashboards-activity-7396935083846164480-Ql8T?utm_source=share&utm_medium=member_desktop&rcm=ACoAACUbtF4BLUv50WY8nkLq_ZH0dcJBxXqOJL0"
