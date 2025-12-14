@@ -4,67 +4,63 @@
   <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!-- SEO Title -->
-<title>Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist</title>
+<title>Veralia | Accurate PET Quantification</title>
 
-<!-- Meta Description -->
-<meta name="description" content="Neuroimaging & data analytics consulting for clinical and research teams. Expert in PET, MRI, CT, SPECT workflows, VOI quantification, stakeholder-ready reports, and scientific communication.">
+<meta name="description" content="Veralia delivers accurate PET quantification for physicians. Correct motion, calculate reliable VOI metrics, align PET with anatomical scans, track multiple visits, and compare with normative databases—all in an intuitive workflow.">
 
-<!-- Canonical URL -->
-<link rel="canonical" href="https://mponcedeleon.com/">
-
-<!-- Favicon -->
+<link rel="canonical" href="https://veralia.com/">
 <link rel="icon" href="assets/images/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="assets/images/favicon.png">
 
-<!-- Open Graph for LinkedIn/Facebook -->
-<meta property="og:title" content="Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist">
-<meta property="og:description" content="Neuroimaging & data analytics consulting for clinical and research teams. Expert in PET, MRI, CT, SPECT workflows, VOI quantification, stakeholder-ready reports, and scientific communication.">
-<meta property="og:image" content="https://mponcedeleon.com/assets/images/favicon.png">
-<meta property="og:url" content="https://mponcedeleon.com/">
+<meta property="og:title" content="Veralia | Accurate PET Quantification">
+<meta property="og:description" content="Veralia delivers accurate PET quantification for physicians. Correct motion, calculate reliable VOI metrics, align PET with anatomical scans, track multiple visits, and compare with normative databases—all in an intuitive workflow.">
+<meta property="og:image" content="https://veralia.com/assets/images/icon.png">
+<meta property="og:url" content="https://veralia.com/">
 <meta property="og:type" content="website">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist">
-<meta name="twitter:description" content="Neuroimaging & data analytics consulting for clinical and research teams. Expert in PET, MRI, CT, SPECT workflows, VOI quantification, stakeholder-ready reports, and scientific communication.">
-<meta name="twitter:image" content="https://mponcedeleon.com/assets/images/favicon.png">
+<meta name="twitter:title" content="Veralia | Accurate PET Quantification">
+<meta name="twitter:description" content="Veralia delivers accurate PET quantification for physicians. Correct motion, calculate reliable VOI metrics, align PET with anatomical scans, track multiple visits, and compare with normative databases—all in an intuitive workflow.">
+<meta name="twitter:image" content="https://veralia.com/assets/images/icon.png">
 
-<!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
   html { scroll-behavior: smooth; }
 </style>
 
-<!-- Structured Data for SEO (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Magdalena Ponce de León",
-  "url": "https://mponcedeleon.com/",
-  "sameAs": [
-    "https://www.linkedin.com/in/magdalena-poncede-leon",
-    "https://twitter.com/mponcedeLeon"
-  ],
-  "jobTitle": "Neuroimaging & Data Analytics Specialist",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Independent Consultant"
+  "@type": "SoftwareApplication",
+  "name": "Veralia",
+  "url": "https://veralia.com/",
+  "applicationCategory": "MedicalApplication",
+  "operatingSystem": "Desktop, PACS Integration",
+  "offers": {
+    "@type": "Offer",
+    "price": "Contact for Pricing",
+    "priceCurrency": "USD"
   },
-  "description": "Independent neuroimaging consultant helping clinical and research teams optimize PET, MRI, CT, and SPECT workflows, VOI quantification, stakeholder-ready reports, and scientific communication.",
-  "mainEntityOfPage": "https://mponcedeleon.com/",
-  "knowsAbout": [
-    "Neuroimaging",
-    "PET/MRI/CT/SPECT",
-    "Motion Correction",
-    "VOI Quantification",
-    "Statistical Analysis",
-    "Data Reporting for Stakeholders",
-    "Scientific Visualization",
-    "Manuscript & Presentation Preparation"
-  ]
+  "description": "Specialized software for Nuclear Medicine Physicians providing accurate PET quantification, motion correction, VOI metric calculation, PET-to-anatomical alignment, longitudinal patient monitoring, and an intuitive workflow.",
+  "keywords": [
+    "PET motion correction",
+    "SUV quantification",
+    "Nuclear Medicine",
+    "Longitudinal PET analysis",
+    "Rigid Registration",
+    "VOI mean value comparison",
+    "PET-MRI alignment",
+    "Normative database comparison"
+  ],
+  "softwareHelp": {
+    "@type": "CreativeWork",
+    "about": "Support for Veralia PET Quantification Software"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Veralia"
+  }
 }
 </script>
 
@@ -76,195 +72,151 @@
 
     <!-- Logo and Title -->
     <h1 class="text-xl font-semibold flex items-center gap-4">
-      <a href="index.html">
+      <a href="#hero">
         <img src="assets/images/icon.png" alt="Logo" class="h-12 w-12 object-contain">
       </a>
       <div class="flex flex-col leading-tight">
-        <span data-i18n="header.name">Magdalena Ponce de León</span>
-        <span class="text-sm font-normal" data-i18n="header.subtitle">Neuroimaging & Data Analytics Specialist</span>
+        <span>Veralia</span>
+        <span class="text-sm font-normal">Accurate PET Quantification</span>
       </div>
     </h1>
 
     <!-- Hamburger Button -->
-    <button id="menu-toggle" class="md:hidden text-4xl focus:outline-none">☰</button>
+    <button id="menu-toggle" class="md:hidden text-4xl focus:outline-none" aria-label="Toggle menu">☰</button>
 
     <!-- Desktop Navigation -->
     <nav id="menu" class="hidden md:flex items-center space-x-6 text-sm font-medium relative">
-      <a href="index.html" class="hover:text-[#01B985]" data-i18n="header.home">Home</a>
-      <a href="about.html" class="hover:text-[#01B985]" data-i18n="header.about">About</a>
-
-      <!-- Services dropdown -->
-      <div class="relative group" id="services-dropdown">
-        <button class="hover:text-[#01B985] flex items-center gap-1 focus:outline-none" type="button" data-i18n="header.services">
-          Services <span class="text-xs">▼</span>
-        </button>
-        <div class="absolute left-0 mt-1 w-56 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50">
-          <a href="data-preprocessing.html" class="block px-4 py-2 hover:bg-blue-100" data-i18n="header.imaging-insights">Imaging Insights</a>
-          <a href="visual-material.html" class="block px-4 py-2 hover:bg-blue-100" data-i18n="header.visuals-communication">Visuals & Communication</a>
-        </div>
-      </div>
-
-      <a href="index.html#posts" class="hover:text-[#01B985]" data-i18n="header.posts">Posts</a>
-      <a href="index.html#contact" class="hover:text-[#01B985]" data-i18n="header.contact">Contact</a>
-
-      <!-- Language selector styled like Services -->
-      <div class="relative group" id="lang-dropdown">
-        <button class="border border-white px-2 py-1 rounded-md hover:text-[#01B985] flex items-center gap-1 focus:outline-none" type="button">
-          <span id="current-lang">EN</span>
-          <span class="text-xs">▼</span>
-        </button>
-        <div class="absolute left-0 mt-1 w-28 bg-white text-gray-800 rounded-md shadow-lg hidden group-hover:block transition-all duration-200 z-50">
-          <button onclick="setLang('en')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">EN</button>
-          <button onclick="setLang('de')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">DE</button>
-          <button onclick="setLang('es')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">ES</button>
-  	  <button onclick="setLang('it')" class="block w-full text-left px-4 py-2 hover:bg-blue-100">IT</button>
-        </div>
-      </div>
+      <a href="#hero" class="hover:text-[#1D4ED8]">Home</a>
+      <a href="#services" class="hover:text-[#1D4ED8]">Software</a>
+      <a href="#contact" class="hover:text-[#1D4ED8]">Contact</a>
     </nav>
   </div>
 
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="md:hidden hidden px-6 pb-4 bg-black/80">
-    <a href="index.html" class="block py-2 hover:text-[#01B985]" data-i18n="header.home">Home</a>
-    <a href="about.html" class="block py-2 hover:text-[#01B985]" data-i18n="header.about">About</a>
-
-    <!-- Services -->
-    <div class="py-2">
-      <span class="block" data-i18n="header.services">Services</span>
-      <div class="pl-4 mt-2 flex flex-col space-y-1">
-        <a href="data-preprocessing.html" class="block hover:text-[#01B985]" data-i18n="header.imaging-insights">Imaging Insights</a>
-        <a href="visual-material.html" class="block hover:text-[#01B985]" data-i18n="header.visuals-communication">Visuals & Communication</a>
-      </div>
-    </div>
-
-    <a href="index.html#posts" class="block py-2 hover:text-[#01B985]" data-i18n="header.posts">Posts</a>
-    <a href="index.html#contact" class="block py-2 hover:text-[#01B985]" data-i18n="header.contact">Contact</a>
-
-    <!-- Language selector -->
-    <div class="py-2">
-      <span class="block" data-i18n="header.language">Language</span>
-      <div class="pl-4 mt-2 flex flex-col space-y-1">
-        <button onclick="setLang('en')" class="text-left hover:text-[#01B985]">EN</button>
-        <button onclick="setLang('de')" class="text-left hover:text-[#01B985]">DE</button>
-        <button onclick="setLang('es')" class="text-left hover:text-[#01B985]">ES</button>
-	<button onclick="setLang('it')" class="text-left hover:text-[#01B985]">IT</button>
-      </div>
-    </div>
+    <a href="#hero" class="block py-2 hover:text-[#1D4ED8]">Home</a>
+    <a href="#services" class="block py-2 hover:text-[#1D4ED8]">Software</a>
+    <a href="#contact" class="block py-2 hover:text-[#1D4ED8]">Contact</a>
   </div>
 </header>
 
 
   <!-- Insert the page content here -->
-  <!-- Hero Section -->
-<section id="hero" class="relative text-white py-32 text-center px-6 overflow-hidden">
-  <!-- Video Background -->
-  <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover z-0" poster="assets/images/BackgroundHero.png">
+  <!-- ================= HERO ================= -->
+<section id="hero" class="relative text-white py-24 px-6 overflow-hidden">
+  <video autoplay muted loop playsinline
+         class="absolute inset-0 w-full h-full object-cover"
+         poster="assets/images/BackgroundHero.png">
     <source src="assets/videos/BackgroundHero.mp4" type="video/mp4">
-    Your browser does not support the video tag.
   </video>
 
-  <!-- Overlay for contrast -->
-  <div class="absolute inset-0 bg-black/40 z-10"></div>
+  <div class="absolute inset-0 bg-black/50"></div>
 
-  <div class="relative container mx-auto max-w-3xl z-20">
-    <h1 class="text-5xl font-extrabold mb-6 leading-tight drop-shadow-lg" data-i18n="index.hero.title">
-      Advanced Neuroimaging Processing & Communication
+  <div class="relative mx-auto max-w-3xl text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+      Veralia: Precision Monitoring for PET
     </h1>
-    <p class="text-xl mb-8 drop-shadow" data-i18n="index.hero.subtitle">
-      Helping biotech, neurotech, and clinical teams transform complex imaging data into <strong>accurate insights</strong> and <strong>clear, high-impact reports</strong> for research, clinical decisions, and stakeholders.
+
+    <p class="text-lg md:text-xl text-gray-100 leading-relaxed mb-10">
+      Veralia is the complete clinical tool for PET. Gain <strong>diagnostic confidence</strong> through motion correction, reliable VOI quantification, alignment with anatomical scans, multi-visit tracking, and an intuitive workflow.
     </p>
 
     <div class="flex flex-col sm:flex-row justify-center gap-4">
-      <a href="#services" class="inline-block bg-white text-blue-700 font-semibold py-3 px-8 rounded shadow hover:bg-gray-100 transition" data-i18n="index.hero.explore_services">
-        Explore Services
+      <a href="#services"
+         class="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-100 transition">
+        See Software Features
       </a>
-      <a href="#contact" class="inline-block bg-[#01B985] text-white font-semibold py-3 px-8 rounded shadow hover:bg-[#33c59d] transition-colors duration-300" data-i18n="index.hero.book_consultation">
-        Book a Free Consultation
+
+      <a href="#contact"
+         class="bg-[#1D4ED8] text-white font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-[#2563EB] transition">
+        Schedule Your Free Demo
       </a>
     </div>
   </div>
 </section>
 
-<!-- Services Section -->
+
+<!-- ================= FEATURES / SOFTWARE OVERVIEW ================= -->
 <section id="services" class="py-20 bg-gradient-to-b from-gray-50 to-white">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold mb-6 pb-2" data-i18n="index.services.title">Services</h2>
-    <p class="text-lg text-gray-600 mb-12 max-w-3xl mx-auto" data-i18n="index.services.subtitle">
-      Tailored solutions that transform complex neuroimaging data into actionable insights, high-impact scientific communication, and clear reports for stakeholders.
-    </p>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-
-      <!-- Data Processing & Imaging Insights -->
-      <a href="data-preprocessing.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
-        <div class="flex justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2" data-i18n="index.services.data_processing.title">
-          Data Processing & Imaging Insights
-        </h3>
-        <p class="text-gray-600 mt-2" data-i18n="index.services.data_processing.description">
-          Turn raw neuroimaging data into <b>fast, reliable insights</b> for clinical, research, and strategic decisions. Accurate preprocessing, quantification, modeling, and reproducible reports help your team focus on innovation and patient care.
-        </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium" data-i18n="index.services.data_processing.learn_more">Learn more →</button>
-      </a>
-
-      <!-- Visuals & Scientific Communication -->
-      <a href="visual-material.html" class="group block bg-white p-6 rounded-lg shadow hover:shadow-lg transition-all duration-300 hover:scale-105 border border-blue-100 hover:border-blue-300">
-        <div class="flex justify-center mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3v18h18M7 12h4v6H7zM13 8h4v10h-4z"/>
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-blue-800 mb-2" data-i18n="index.services.visuals_communication.title">
-          Visuals & Scientific Communication
-        </h3>
-        <p class="text-gray-600 mt-2" data-i18n="index.services.visuals_communication.description">
-          Create <b>professional figures, presentations, manuscripts, and stakeholder reports</b> that clearly communicate results. Improve clarity, impact, and engagement for journals, collaborators, investors, and decision-makers.
-        </p>
-        <button class="mt-4 inline-block text-blue-700 hover:underline font-medium" data-i18n="index.services.visuals_communication.learn_more">Learn more →</button>
-      </a>
-
+  <div class="mx-auto max-w-6xl px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl font-bold mb-4">
+        Veralia: Complete Clinical Tool for PET
+      </h2>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Designed for physicians, Veralia improves image quality, quantifies VOIs, aligns PET with anatomical scans, compares patient data to normal databases, tracks multi-visit studies, and is extremely easy to use.
+      </p>
     </div>
-  </div>
-</section>
 
-<!-- Call to Action Section -->
-<section class="bg-[#01B985] py-20 px-6 text-center text-white">
-  <div class="max-w-3xl mx-auto">
-    <h3 class="text-4xl md:text-5xl font-extrabold mb-6 leading-snug" data-i18n="index.cta.title">
-      Maximize the Impact of Your Neuroimaging Data
-    </h3>
-    <p class="text-lg md:text-xl mb-8 leading-relaxed text-white" data-i18n="index.cta.subtitle">
-      Partner with us to turn complex imaging data into <strong>actionable insights, clear reports, and impactful visuals</strong> that accelerate research, clinical decisions, and stakeholder engagement.
-    </p>
-    <a href="#contact" class="inline-block bg-transparent border-2 border-white text-white font-semibold py-3 px-10 rounded hover:bg-white hover:text-[#01B985] transition-colors" data-i18n="index.cta.button">
-      Book a Free Consultation
-    </a>
-  </div>
-</section>
+    <!-- Software image -->
+    <div class="flex justify-center mb-16">
+      <img src="assets/images/veralia-software-screenshot.png" alt="Veralia Software Screenshot"
+           class="rounded-xl shadow-lg max-w-full h-auto">
+    </div>
 
-<!-- Latest Posts Section -->
-<section id="posts" class="bg-gradient-to-b from-gray-50 to-white py-16">
-  <div class="container mx-auto px-6 max-w-5xl">
-    <h2 class="text-3xl font-semibold mb-10 border-blue-700 inline-block pb-2" data-i18n="index.latest_posts.title">Latest Posts</h2>
-
-    <div class="relative overflow-hidden -mx-8">
-      <div id="carouselTrack" class="flex px-6 gap-6 transition-transform duration-500 ease-in-out text-center">
-        <!-- Cards load here dynamically -->
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      
+      <!-- Feature 1 -->
+      <div class="bg-white p-6 rounded-xl border border-gray-200 hover:border-[#1D4ED8] hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#1D4ED8] mb-2">1. Gold-Standard Motion Correction</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Eliminate movement artifacts in PET time-series using rigid correction, ensuring reliable SUV metrics.
+        </p>
       </div>
 
-      <button id="prevBtn" class="absolute left-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white p-1 rounded-full shadow hover:bg-blue-800 z-10" aria-label="Previous">
-        &#8592;
-      </button>
+      <!-- Feature 2 -->
+      <div class="bg-white p-6 rounded-xl border border-gray-200 hover:border-[#1D4ED8] hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#1D4ED8] mb-2">2. PET-to-Anatomical Image Alignment</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Align PET scans with anatomical images such as MRI or CT for precise localization and improved diagnostic accuracy.
+        </p>
+      </div>
 
-      <button id="nextBtn" class="absolute right-2 top-1/2 -translate-y-1/2 bg-blue-700 text-white p-1 rounded-full shadow hover:bg-blue-800 z-10" aria-label="Next">
-        &#8594;
-      </button>
+      <!-- Feature 3 -->
+      <div class="bg-white p-6 rounded-xl border border-gray-200 hover:border-[#1D4ED8] hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#1D4ED8] mb-2">3. Accurate, Automated VOI Metrics</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Standardized SUVmean and SUVmax calculation across all required volumes of interest, reducing observer variability and saving time.
+        </p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="bg-white p-6 rounded-xl border border-gray-200 hover:border-[#1D4ED8] hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#1D4ED8] mb-2">4. Multi-Visit Patient Tracking</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Automatically align and compare VOI values across multiple visits for robust longitudinal disease monitoring.
+        </p>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="md:col-span-2 bg-white p-6 rounded-xl border border-gray-200 hover:border-[#1D4ED8] hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold text-[#1D4ED8] mb-2">5. Intuitive, Time-Saving Workflow</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Designed for physicians: an easy-to-use interface that accelerates workflow and allows quick, confident decisions without losing time.
+        </p>
+      </div>
+
     </div>
+  </div>
+</section>
+
+
+<!-- ================= CTA ================= -->
+<section class="bg-[#1D4ED8] py-16 px-6 text-center text-white">
+  <div class="mx-auto max-w-3xl">
+    <h3 class="text-3xl md:text-4xl font-extrabold mb-6">
+      Make Confident Clinical Decisions with PET Data
+    </h3>
+
+    <p class="text-lg text-white/90 mb-8">
+      Quickly diagnose patients using motion-corrected, quantified, and longitudinally comparable PET data, compared against validated normal databases—all within an intuitive interface designed for physicians.
+    </p>
+
+    <a href="#contact"
+       class="inline-block border-2 border-white px-10 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#1D4ED8] transition">
+      Request Your Free Demo
+    </a>
   </div>
 </section>
 
@@ -272,47 +224,45 @@
   <!-- Contact Section -->
 <section id="contact" class="bg-gradient-to-b from-gray-50 to-white py-16">
   <div class="container mx-auto px-6 max-w-3xl text-center">
-    <h2 class="text-3xl font-semibold mb-10 inline-block pb-2 font-montserrat" data-i18n="contact.title">
+    <h2 class="text-3xl font-semibold mb-10 inline-block pb-2 font-montserrat">
       Contact
     </h2>
-    <p class="mb-8 text-gray-700 font-poppins" data-i18n="contact.subtitle">
-      Feel free to reach out via email, LinkedIn, or the form below:
+    <p class="mb-8 text-gray-700 font-poppins">
+      Reach out via email, LinkedIn, or the form below:
     </p>
 
     <!-- Contact Buttons -->
     <div class="flex flex-col sm:flex-row justify-center gap-4 mb-12">
       <!-- Email Button -->
       <a href="mailto:poncedeleon.magdalena.s@gmail.com" 
-         class="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg bg-blue-900 hover:bg-blue-900 transition text-white font-semibold w-full sm:w-auto"
-         aria-label="Email">
+         class="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg bg-[#1D4ED8] hover:bg-[#2563EB] transition text-white font-semibold w-full sm:w-auto">
         <svg class="w-6 h-6 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
           <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
         </svg>
-        <span data-i18n="contact.email">poncedeleon.magdalena.s@gmail.com</span>
+        <span>poncedeleon.magdalena.s@gmail.com</span>
       </a>
 
       <!-- LinkedIn Button -->
       <a href="https://www.linkedin.com/in/magdalena-ponce-de-león-1125b9154" target="_blank" rel="noopener noreferrer" 
-         class="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg bg-blue-900 hover:bg-blue-900 transition text-white font-semibold w-full sm:w-auto"
-         aria-label="LinkedIn Profile">
+         class="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg bg-[#1D4ED8] hover:bg-[#2563EB] transition text-white font-semibold w-full sm:w-auto">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
         </svg>
-        <span data-i18n="contact.linkedin">LinkedIn Profile</span>
+        <span>LinkedIn Profile</span>
       </a>
     </div>
 
     <!-- Contact Form (Mailto) -->
     <form id="mailtoForm" class="bg-white p-8 rounded-lg shadow-md max-w-xl mx-auto text-left font-poppins">
       <div class="mb-4">
-        <label for="name" class="block text-gray-700 font-semibold mb-2" data-i18n="contact.form.name">Name</label>
-        <input type="text" id="name" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue">
+        <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+        <input type="text" id="name" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#1D4ED8]">
       </div>
       <div class="mb-4">
-        <label for="message" class="block text-gray-700 font-semibold mb-2" data-i18n="contact.form.message">Message</label>
-        <textarea id="message" rows="5" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue"></textarea>
+        <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+        <textarea id="message" rows="5" required class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#1D4ED8]"></textarea>
       </div>
-      <button id="sendMessageBtn" type="button" class="bg-blue-900 hover:bg-blue-900 text-white font-semibold py-3 px-6 rounded shadow transition-colors duration-300" data-i18n="contact.form.button">
+      <button id="sendMessageBtn" type="button" class="bg-[#1D4ED8] hover:bg-[#2563EB] text-white font-semibold py-3 px-6 rounded shadow transition-colors duration-300">
         Send Message
       </button>
     </form>
@@ -320,34 +270,59 @@
 </section>
 
 
-  <!-- Footer -->
-<footer class="bg-blue-900 text-white py-6 mt-12">
-  <div class="container mx-auto px-6 text-center text-sm flex flex-col sm:flex-row sm:justify-center sm:space-x-6 items-center gap-3">
-    <span data-i18n="footer.copyright">
-      &copy; 2025 | Magdalena Ponce de León | Neuroimaging & Data Analytics Specialist. All rights reserved.
-    </span>
-    
-    <!-- Email -->
-    <a href="mailto:poncedeleon.magdalena.s@gmail.com" class="hover:underline flex items-center text-white" aria-label="Email">
-      <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-      </svg>
-      <span data-i18n="footer.email">poncedeleon.magdalena.s@gmail.com</span>
-    </a>
+  <footer class="bg-gray-900 text-gray-300">
+  <div class="mx-auto max-w-6xl px-6 py-12">
 
-    <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/magdalena-ponce-de-león-1125b9154" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center text-white" aria-label="LinkedIn Profile">
-      <svg class="w-5 h-5 mr-1 fill-current" viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 
-          2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
-          19h-3v-10h3v10zm-1.5-11.3c-.966 0-1.75-.784-1.75-1.75s.784-1.75 
-          1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 
-          11.3h-3v-5.5c0-1.1-.9-2-2-2s-2 .9-2 2v5.5h-3v-10h3v1.4c.6-.9 
-          1.8-1.4 3-1.4 2.21 0 4 1.79 4 4v5.6z"/>
-      </svg>
-      <span data-i18n="footer.linkedin">LinkedIn</span>
-    </a>
+    <div class="grid md:grid-cols-3 gap-8 mb-10">
+
+      <!-- Brand -->
+      <div>
+        <h3 class="text-lg font-bold text-white mb-3">Veralia</h3>
+        <p class="text-sm leading-relaxed">
+          Precision motion correction and quantitative PET analysis for confident clinical decisions.
+        </p>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <h4 class="text-sm font-semibold text-white mb-3">
+          Navigation
+        </h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#hero" class="hover:text-white transition">Home</a></li>
+          <li><a href="#services" class="hover:text-white transition">Software</a></li>
+          <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h4 class="text-sm font-semibold text-white mb-3">
+          Contact
+        </h4>
+        <p class="text-sm mb-1">
+          <a href="mailto:poncedeleon.magdalena.s@gmail.com"
+             class="hover:text-white transition">
+            poncedeleon.magdalena.s@gmail.com
+          </a>
+        </p>
+        <p class="text-sm">Vienna, Austria</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="border-t border-white/10 pt-6 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
+      <span>
+        © <span id="year"></span> Veralia. All rights reserved.
+      </span>
+    </div>
+
   </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </footer>
 
 
