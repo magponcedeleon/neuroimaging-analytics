@@ -256,25 +256,18 @@
   </div>
 </footer>
 
+
+<!--  Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TJVLZ6GB0H"></script>
 <script>
-// -----------------------------
-  // Google Analytics
-  // -----------------------------
-  const gaScript = document.createElement("script");
-  gaScript.async = true;
-  gaScript.src = "https://www.googletagmanager.com/gtag/js?id=G-TJVLZ6GB0H";
-  document.head.appendChild(gaScript);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  gaScript.onload = () => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    window.gtag = gtag;
-    gtag('js', new Date());
-    gtag('config', 'G-TJVLZ6GB0H');
-  };
-
+  // This connects both your Measurement ID and your Tag Manager ID
+  gtag('config', 'G-TJVLZ6GB0H');
+  gtag('config', 'GT-MQJ4B8FN');
 </script>
-
 
 </body>
 </html>
